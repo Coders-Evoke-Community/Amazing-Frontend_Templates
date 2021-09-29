@@ -13,10 +13,10 @@
 
 <p align="center">
  <img alt="Discord" src="https://img.shields.io/discord/813774169799917568?label=Join%20Discord"> 
-  <img src="https://img.shields.io/github/contributors/Ayan-thecodeking/Amazing-Frontend-Templates?color=yellow&logo=Github&logoColor=yellow">
+  <img src="https://img.shields.io/github/contributors/Coders-Evoke-Community/Amazing-Frontend_Templates?color=yellow&logo=Github&logoColor=yellow">
   
-  <img src="https://img.shields.io/github/stars/Ayan-thecodeking/Amazing-Frontend-Templates?color=%2354d747)](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates/stargazers" >
-  <img src="https://img.shields.io/github/forks/Ayan-thecodeking/Amazing-Frontend-Templates?color=red&logo=Github&logoColor=%2354d747)](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates/network)" >
+  <img src="https://img.shields.io/github/stars/Coders-Evoke-Community/Amazing-Frontend_Templates?color=%2354d747)](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates" >
+  <img src="https://img.shields.io/github/forks/Coders-Evoke-Community/Amazing-Frontend_Templates?color=red&logo=Github&logoColor=%2354d747)](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/network)" >
 </p>
 
 - In this amazing **Hacktober** festival we **Coders Evoke** had come up with an amazing project.This is a very beginner friendly project especially targeted for those who are just started the web development or we can say who are just newbie in this and wanted get their hands dirty in this domain. In this project the participants needs to make very good looking responsive templates for example different types of navbars, footers , landing pages or anything using **html,css,js** .For this project participants need not have very good designing skills they can  design this templates using normal css properties.Participants with good templates design are likely to merged in this repository.
