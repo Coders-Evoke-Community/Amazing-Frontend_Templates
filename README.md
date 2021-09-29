@@ -44,8 +44,6 @@
 
 </div>
 
-
-
 ## Ace the HacktoberFest like a pro⭐
 
 - Register yourself through this [form](https://forms.gle/B1gobSfzvtmXeo5bA)
