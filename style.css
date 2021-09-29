@@ -7,11 +7,12 @@ overflow-x: hidden;
 header{
 	width: 100vw;
 	height:90vh;
-	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('img/banner1.jpg');
+	background:linear-gradient(rgba(245, 111, 94, 0.6),rgba(245, 111, 94, 0.6)), url('img/banner1.jpg');
 	background-size: cover;
 	background-position:;
 	position: relative;
 	background-attachment: fixed;
+	
 }
 nav{
 	width: 100%;
@@ -110,7 +111,7 @@ nav{
 }
 
 
-@media (max-width:1100px){
+@media (max-width:px){
 
     html{
         font-size: 55%;
