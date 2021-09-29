@@ -15,6 +15,6 @@
 - [ ] parallax effect design 
 - [ ] Others
 
-## Any tutorials or Documentation made by you 
+## Any tutorials or Documentation are you going to add 
 
 <hr>
