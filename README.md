@@ -1,4 +1,4 @@
-<h1 align='center'>  Amazing-Frontend-Templates  </h1>
+<h1 align='center'> ❤️ Amazing-Frontend-Templates ❤️  </h1>
 
 
 <h2 align="center">We are excited to be a part of  </h2>
@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/github/forks/Ayan-thecodeking/Amazing-Frontend-Templates?color=red&logo=Github&logoColor=%2354d747)](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates/network)" >
 </p>
 
-- Community Blog website is for contributors to get a glimpse of mentro. The website also includes blogs and guides by the mentrozens to help you better understand our work and learn from others experience. 
+- In this amazing **Hacktober** festival we **Coders Evoke** had come up with an amazing project.This is a very beginner friendly project especially targeted for those who are just started the web development or we can say who are just newbie in this and wanted get their hands dirty in this domain. In this project the participants needs to make very good looking responsive templates for example different types of navbars, footers , landing pages or anything using **html,css,js** .For this project participants need not have very good designing skills they can  design this templates using normal css properties.Participants with good templates design are likely to merged in this repository.
 
 - If you are a begineer to open-source, then this is a one-stop place for you to contribute to issues with the tag **HacktoberFest** and you can also explore, connect with the mentors at **Coders Evoke**. So, what are you waiting for?🎉
 
@@ -59,27 +59,40 @@
 
 - [Add beginner-friendly issues](#contributing) 🙏
 
-- [Add Templates](https://community.blog.mentro.tech/) 📖
+- [Add Templates](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates) 📖
 
 Let's help each other to complete the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) challenge! 🚀 
 
 May the open-source be with you🎉🎉
 
+<div align='center'>
+
+---
+
 ## What is Coders Evoke?
-[Coders Evoke](https://discord.gg/FZusE7FH4q) is all about sharing knowledge, posting achievements, participating in hackathons, discussions and many more! We have a wide variety of topics however we’re always listening to suggestions from the community.
+[Coders Evoke](https://discord.gg/FZusE7FH4q) is a tech community all about sharing knowledge, posting achievements, participating in hackathons, discussions,collaborations and many more! We have a wide variety of topics however we’re always listening to suggestions from the community.
+</div>
+
+---
+
+<div align='center'>
+
+## Tech Stacks
+This project is built using<br/><br/>
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/search?l=html)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/search?l=css)&nbsp;
+[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/search?l=javascript)
+
+</div>
+<br>
 
 
-## Built With
-The project is built using<br/><br/>
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/E-Cell-SSTC/E-Cell-Website/search?l=html)&nbsp;
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/E-Cell-SSTC/E-Cell-Website/search?l=css)&nbsp;
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/E-Cell-SSTC/E-Cell-Website/search?l=javascript)
+<div align='center'>
 
-
-<!--Updated Readme file which helps beginners contribute to open source-->
 ## 📌 Getting Started ⭐
 
 Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
+</div>
 
 - If you don't have git on your machine, [install](https://help.github.com/articles/set-up-git/) it.
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/IJB27MQH2PI)
@@ -89,16 +102,20 @@ Refer to the following articles on the basics of Git and Github and can also con
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
+<div align='center'>
+
 ## 📜 Instructions to follow while contributing to Amazing-Frontend-Templates
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
+</div>
 Are you a newbie in the world of open source and want to Contribute to our Open Source Project ?
 Don't worry we got your back 
 
 Below are the steps to follow to contribute to this project:
 
-**1.**  Fork [this](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates) repository.   
+**1.**  Fork [this](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates) repository.   
 
 **2.**  Clone your forked copy of the project.
 ```
@@ -113,7 +130,7 @@ cd Amazing-Frontend-templates
 ```
 **4.** Add a reference(remote) to the original repository.
 ```
-git remote add upstream https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates
+git remote add upstream https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates
 ```
 **5.** Check the remotes for this repository.
 ```
@@ -178,21 +195,6 @@ git push -u origin <your_branch_name>
 
 </div>
 
+<div align="center">
 
-
-<!-- 1. Fork the repository
-
-2. Clone the repository  
-```
-git clone https://github.com/<GITHUB_USERNAME>/Mentro-Community-Website.git 
-```
-3. Go into the directory containing the project, and get started
-
-4. To know more about the setup and how to contribute visit [here](https://github.com/Ayan-thecodeking/Here-Contributions-Begins.git) 
-
-
-## How to make a pull request? 	\
-
-1. After cloning the repository you can switch to the cloned repo on your local machine.
-```
-  cd community-website --> 
+ ##  ⭐⭐ Do star this repository ⭐⭐
