@@ -36,7 +36,7 @@
 ---
 <div align="center">
 
-## 💯 Give our [repo](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates.git) a star 🌟 
+## 💯 [Give our repo](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates.git) a star 🌟 
 
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Mentro-Community-Blog)
