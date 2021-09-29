@@ -11,7 +11,7 @@ Fixes # <issue_number_here>
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
-- 
+
 - [ ] Video (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
 - [ ] Documentation (Content Creation in the form of codes or tutorials)
 - [ ] Other (If you choose other, Please mention changes below) 
