@@ -117,7 +117,7 @@ Below are the steps to follow to contribute to this project:
 
 **2.**  Clone your forked copy of the project.
 ```
-git clone --depth 1 https://github.com/<your_user_name>/.E-Cell-Website.git
+git clone --depth 1 https://github.com/<your_user_name>/Amazing-Frontend_Template.git
 ```
 
 where `your_user_name` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
