@@ -44,7 +44,12 @@ Fixes # <issue_number_here>
 
 <hr>
 
-<!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
+## Any tutorials or documentation have you added 
+(made by you only not from google)
+- [ ] Tutorial
+- [ ] Documentation
+
+<hr>
 
 ## Screenshots / Gif (Compulsory) 📸
 
