@@ -4,30 +4,37 @@ body{
 	scroll-behavior: smooth;
 overflow-x: hidden;
 }
-header{
-	width: 100vw;
-	height:90vh;
-	background:linear-gradient(rgba(245, 111, 94, 0.6),rgba(245, 111, 94, 0.6)), url('img/banner1.jpg');
-	background-size: cover;
-	background-position:;
-	position: relative;
-	background-attachment: fixed;
-	
+ul{
+	list-style: none;
 }
-nav{
+.navbar{
+	display: flex;
+	top:0;
+	left: 0;
 	width: 100%;
 	height:80px;
-	background: white;
-	color: black;
-	display: flex;
 	justify-content: space-between;
+	padding: 20px;
+	color: black;
+	
+	background: white;
 	align-items: center;
-	padding: 0px 80px;
 	position:fixed;
-	top:0;
 	background:white;
 	z-index: 1;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.menu{
+	display: flex;
+	align-items: center;
+}
+.menu li {
+	margin: 0;
+	margin: 0 15px;
+}
+a{
+	text-decoration: none;
+	
 }
 .logo{
 	font-family: sans-serif;
@@ -42,36 +49,35 @@ nav{
 	font-size:20px;
 	
 	padding: 10px 20px;
-	font-family: sans-serif;
-
-}
+	font-family: sans-serif; 
+	
+} 
 .menu a:first-child{
-	color:#e74c3c;
+	color:#050505;
 }
-.menu a:hover{
+.menu li a:hover{
 	color: #e74c3c;
 	transition: 0.4s;
+	
 }
-.icon i{
-	font-size:20px;
+.ctn li a:hover {
+	color: white;
 }
-.icon i:hover{
-	color: #e74c3c;
+header{
+	width: 100vw;
+	height:90vh;
+	background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('img/banner1.jpg');
+	background-size: cover;
+	background-position:bottom;
+	position: relative;
+	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	
 }
-.icon a{
-	padding:10px 20px;
-	background:#e74c3c;
-	color:white;
-	text-decoration: none;
-	margin-left:30px;
-	border-radius: 5px;  
-}
-.icon a:hover{
-	background: transparent;
-	border:1px solid #e74c3c;
-	color: black;
-	transition: 0.4s ease;
-}
+
+
+/* section */
 .h-text{
 	max-width: 700px;
 	position: absolute;
@@ -111,24 +117,128 @@ nav{
 }
 
 
-@media (max-width:px){
+/* filte------------------------------------------------------------------------------ */
+
+.portfolio .button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.portfolio .button-container .btn{
+    margin:1rem;
+    cursor: pointer;
+	display: inline-block;
+    padding:.9rem 3.5rem;
+    font-size: 2rem;
+    background:none;
+    color:rgb(0, 0, 0);
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    margin-top: 1rem;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    border:.2rem solid var(--main-color);
+}
+.portfolio .button-container .btn:hover:before{
+    top:100%;
+    transform: translate(-50%, 100%);
+}
+
+.portfolio .button-container .btn:hover{
+    color:red;
+}
+
+
+.portfolio .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.portfolio .image-container .box{
+    width:26rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    overflow: hidden;
+    height: 25rem;
+    position: relative;
+    border:1.5rem solid var(--primary-bg-color);
+    cursor: pointer;
+}
+
+.portfolio .image-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio .image-container .box .info{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:var(--primary-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: .9;
+    transform: scale(0);
+}
+
+.portfolio .image-container .box:hover .info{
+    transform: scale(1);
+}
+
+.portfolio .image-container .box .info h3{
+    font-size: 2.5rem;
+    color:rgb(0, 0, 0);
+}
+
+
+@media (max-width:850px){
 
     html{
         font-size: 55%;
     }
+   .navbar{
+	   padding: 0;
+	}
+	   .logo{
+		   top: 30px;
+		   left: 30px;
+		   position: absolute;
+	   }
+   .menu{
+	   flex-direction: column;
+	   width: 100%;
+	   height: 100vh;
+	   justify-content: center;
+	   background: #ee7b6e;
+	}
+	 .menu li{
+		 margin: 30px auto;
+	 }  
+}
 
-    section{
-        padding:1rem;
-        padding: 0 3%;
+@media (max-width:400px){
+
+    html{
+        font-size: 50%;
+    }
+
+  
+    .portfolio .image-container .box{
+        width:100%;
     }
 
 }
-
-/* @media (max-width:768px){
-
-    .home .image img{
-        height: auto;
-        width: 100%;
-    }
-
-} */
+    
+    
