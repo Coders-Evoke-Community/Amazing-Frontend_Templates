@@ -2,7 +2,7 @@
 
 ## Description 📜
 
-<!-- Please describe the issue in brief. -->
+<!-- Please describe the issue in brief -->
 
 <hr>
 
