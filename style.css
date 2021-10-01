@@ -240,5 +240,11 @@ header{
     }
 
 }
+.ftr{
+    color: #e74c3c;
+    height: 150px;
+    background-color: none;
+    margin-top: 50px;
     
+}  
     
