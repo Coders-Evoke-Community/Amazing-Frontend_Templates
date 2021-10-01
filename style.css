@@ -7,13 +7,15 @@ overflow-x: hidden;
 ul{
 	list-style: none;
 }
+
 .navbar{
 	display: flex;
+	flex-direction: row;
 	top:0;
 	left: 0;
 	width: 100%;
-	height:80px;
-	justify-content: space-between;
+	height:100px;
+	justify-content: space-between; 
 	padding: 20px;
 	color: black;
 	
@@ -24,14 +26,17 @@ ul{
 	z-index: 1;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+
 .menu{
 	display: flex;
+	flex-direction: row;
 	align-items: center;
-}
+} 
+
 .menu li {
 	margin: 0;
 	margin: 0 15px;
-}
+} 
 a{
 	text-decoration: none;
 	
@@ -43,6 +48,17 @@ a{
 .logo span{
 	color: #e74c3c;
 }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+	position: relative;
+	right: 10px;
+	border-color: rgb(17, 16, 17);
+}
+  
 .menu a{
 	text-decoration: none;
 	color: black;
@@ -54,7 +70,7 @@ a{
 } 
 .menu a:first-child{
 	color:#050505;
-}
+} 
 .menu li a:hover{
 	color: #e74c3c;
 	transition: 0.4s;
@@ -76,9 +92,9 @@ header{
 	
 }
 
-
 /* section */
 .h-text{
+	margin-top: 35px;
 	max-width: 700px;
 	position: absolute;
 	top:50%;
@@ -212,7 +228,8 @@ header{
 	   padding: 0;
 	}
 	   .logo{
-		   top: 30px;
+		   margin-left: 30px;
+		   top: 37px;
 		   left: 30px;
 		   position: absolute;
 	   }
@@ -221,9 +238,9 @@ header{
 	   width: 100%;
 	   height: 100vh;
 	   justify-content: center;
-	   background: #ee7b6e;
+	   background: #faa096;
 	}
-	 .menu li{
+	.menu li{
 		 margin: 30px auto;
 	 }  
 }
