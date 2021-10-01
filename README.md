@@ -55,9 +55,9 @@
 - Share on [Twitter](https://twitter.com/EvokeCoders?s=09), [LinkedIn]( https://www.linkedin.com/in/coders-evoke-a26305213/) after your PR has been merged into the repo as we believe in learning in public & you can tag us using #codersEvoke @EvokeCoders
 
 
-- [Add beginner-friendly issues](#contributing) 🙏
+- [Add beginner-friendly issues]([#contributing](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/issues)) 🙏
 
-- [Add Templates](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates) 📖
+- [Add Templates](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/tree/main/Templates) 📖
 
 Let's help each other to complete the [Hacktoberfest](https://hacktoberfest.digitalocean.com/) challenge! 🚀 
 
@@ -101,81 +101,35 @@ Refer to the following articles on the basics of Git and Github and can also con
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 <div align='center'>
+<h2>👨‍💻 Workflow:</h2>
 
-## 📜 Instructions to follow while contributing to Amazing-Frontend-Templates
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
+<p4>To understand in detail go through <a href=''>contributing.md</a></p4>
 </div>
-Are you a newbie in the world of open source and want to Contribute to our Open Source Project ?
-Don't worry we got your back 
 
-Below are the steps to follow to contribute to this project:
 
-**1.**  Fork [this](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates) repository.   
 
-**2.**  Clone your forked copy of the project.
-```
-git clone --depth 1 https://github.com/<your_user_name>/Amazing-Frontend_Template.git
-```
+- Fork the repository
 
-where `your_user_name` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+- Clone your forked repository using terminal or gitbash.
 
-**3.** Navigate to the project directory :file_folder: .
-```
-cd Amazing-Frontend-templates
-```
-**4.** Add a reference(remote) to the original repository.
-```
-git remote add upstream https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates
-```
-**5.** Check the remotes for this repository.
-```
-git remote -v
-```
-**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
-```
-git pull upstream master
-```
-**7.** Create a new branch.
-```
-git checkout -b <your_branch_name>
-```
+- Make changes to the cloned repository
 
-**8.** Make necessary changes and commit those changes
-<p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
+- Add, Commit and Push
 
-**9.** Check your status: .
-    
-'''
-git status
-'''
+- Then in GitHub, in your cloned repository, find the option to make a pull request. 
 
-**10.** Track your changes:heavy_check_mark: .
-```
-git add .   or   git add file1 file2 file3
-```
-**11.** Commit your changes .
-```
-git commit -m "Relevant message"
-```
-**12.** Push the committed changes in your feature branch to your remote repo.
-```
-git push -u origin <your_branch_name>
-```
+---
 
-**13.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+<h2 align='center'><b><i> ---- Important Points About Project ----<i></b><h2>
 
-<img src="https://firstcontributions.github.io/assets/Readme/compare-and-pull.png" width=600>
+- Avoid using frameworks 
+- Make sure the templates you are adding is responsive and unique 
+- Copied templates or designs won't be considered 
+- Avoid spams 
+- Make genuine contributions 
 
-**14.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+</i>
 
-**15.** Click on `Create Pull Request`.
-
-<img src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" width=600>
-
-**16.** Hurray ! You have created a PR to the Hacktoberfest . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
 <br>
 <h1 align=center> project Admin ❤️ </h1>
@@ -184,6 +138,7 @@ git push -u origin <your_branch_name>
   <div align="center">
 <table>
 <tr>
+
 <td align="center"><a href="https://github.com/Ayan-thecodeking"><img src="https://avatars.githubusercontent.com/u/78692566?v=4" width=150px height=150px /></a></br> <h4 style="color:white;">Ayan Gupta</h4>
 
      
