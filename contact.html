@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            background: url(contact-us_.jpg) no-repeat center;
+            background-size: cover;
+            padding: 75px 0;
+        }
+
+        .container h1 {
+            text-align: center;
+            color: rgb(3, 3, 3);
+        }
+
+        .border {
+            width: 100px;
+            height: 10px;
+            background: #34495e;
+            margin: 40px auto;
+        }
+
+        .form-content {
+            max-width: 600px;
+            margin: auto;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .form-text {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin: 16px 0;
+            background: #112;
+            padding: 20px 40px;
+            outline: none;
+            color: #ddd;
+            transition: 0.5s;
+        }
+
+        .form-text:focus {
+            box-shadow: 0 0 12px 4px #34495e;
+        }
+
+        textarea.form-text {
+            resize: none;
+            height: 120px;
+        }
+
+        .form-text-btn {
+            float: left;
+            border: 0;
+            background: #3a7a54;
+            color: #fff;
+            padding: 12px 48px;
+            border-radius: 22px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .form-text-btn:hover {
+            background: #2980b9;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Contact us</h1>
+        <div class="border"></div>
+        <form action="#" class="form-content">
+            <input type="text" class="form-text" placeholder="Full Name">
+            <input type="text" class="form-text" placeholder="Email">
+            <input type="number" class="form-text" placeholder="Mobile">
+            <textarea class="form-text" placeholder="Enter your message here..."></textarea>
+            <input type="submit" class="form-text-btn" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
