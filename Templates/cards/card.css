@@ -31,11 +31,29 @@ body {
   overflow: hidden;
   width: 300px;
 }
-.cardHeading img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+
+.cardHeading{
+  overflow: hidden;
 }
+.cardHeading img{
+  transition: all 1.0s ease;
+}
+.cardHeading:hover img {
+	transform: scale(1.5);
+  /* animation: rotation 2s infinite linear; */
+
+}
+
+/* This particular commented codesnippet can be used if you want to rotate your images */
+
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
 .cardBody {
   display: flex;
   flex-direction: column;
