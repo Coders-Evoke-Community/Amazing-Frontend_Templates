@@ -120,7 +120,32 @@ header{
 	border-radius: 8px; 
 	margin-top: 30px;
 }
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
 
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(235, 46, 109);
+
+}
+
+
+.navbar a.icon {
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
 
 /* filte------------------------------------------------------------------------------ */
 
