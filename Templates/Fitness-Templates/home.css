@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1 {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px 0px;
+    font-weight: bolder;
+    width: fit-content;
+    position: relative;
+}
+
+h1::after {
+    content: ' ';
+    display: block;
+    border: 5px solid purple;
+    border-radius: 4px;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(235, 46, 109);
+
+}
+
+.header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Add the code in comments in .header class if you need sticky header, else remove it :D
+    This doesn't affect responsiveness of Header, it will be responsive and fixed for other devices as well. Checked :D
+
+    position: fixed;
+    width: 100%;
+    z-index: 100; */
+
+.logo {
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 18px;   
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+.navbar a:hover {
+    color: rgb(235, 46, 109);
+}
+
+.btn2{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin-right: 1rem;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.btn2:hover{ 
+    transform: scale(1.1);       
+    cursor: pointer;
+}
+.banner{
+    color: white;
+    display: block;
+    width: 90%; 
+    text-align: center;
+}
+.head{
+    font-size: 50px;
+    padding: 20px;
+}
+.topic{
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px ;
+}
+.butns{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px white solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.butns:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.body{
+    background: url('./images/bg.jpg') center top;
+    background-repeat: no-repeat;
+    height: 960px;
+    margin-top: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureclass{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    max-width: 90%;
+    display: grid;
+    margin-top: 50px;
+}
+.grid .card{
+    background: rgb(240, 239, 239);
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.grid .card .img{
+    height: 350px;
+    width: 100%; 
+}
+
+.grid .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+    border-radius: 10px;
+}
+
+
+.card .content {
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.scheduledclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .title {
+    font-family: 'poppins';
+    font-size: 24px;
+    text-align: center;
+}
+
+.content .time {
+    font-weight: 900;
+    color: purple;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.topscheduledclass{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.scheduledclass img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.scheduledclass .img {
+    width: 400px;
+    height: 350px;
+    background: black;
+}
+
+ .btn {
+    margin-top: 10px;
+    width: fit-content;
+    font-size: 18px;
+    color: white;
+    background: purple;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+form{
+    border: 2px solid #000;
+    width: 280px;
+    height: 471px;
+    margin-left: 40%;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+fieldset{ /* Fieldset is Inside the Form */
+    background-color: #fff;
+    width: 276px;
+    height: 468px;
+    border-radius: 15px;
+    outline: none;
+    padding-top: 20px;
+}
+
+#register-text{
+    margin-left: 30px;
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: purple;
+}
+
+.user-input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid purple;
+    height: 20px;
+    width: 180px;
+}
+
+.user-input:focus{
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.group{
+    margin-left: 30px;
+}
+
+#form-submit-button{
+    outline: none;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: purple;
+    border-radius: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+label{
+    font-size: 15px;
+}
+
+#name-id{
+    margin-top: 28px;
+}
+
+#main-form-inside{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: purple;
+    padding-top: 50px;
+    height: 557px;
+}
+
+@media screen and (min-width: 1260px) {
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
+
+    .navbar li a{
+        padding: 0px 34px;
+    }
+
+    .banner {
+        text-align: center;
+        max-width: 45%;
+    }
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1260px ) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+    
+} 
+
+@media screen and (max-width: 960px) {
+    .grid {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(1fr, 4);
+        grid-gap: 40px;
+    }
+}
+
+@media  screen and (max-width: 690px) {
+    .btn2 {
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        align-self: flex-start;
+    }
+
+    .navbar {
+        display: none;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .navbar li{
+        padding: 16px 0;
+        background: rgb(24, 24, 24);
+        width: 100%;
+    }
+
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    h1,
+    .head {
+        font-size: 35px;
+    }
+}
+
+
+
