@@ -177,6 +177,12 @@ header{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    background-color: #000;
+    mix-blend-mode: overlay;
+}
+
+.box:hover{
+	background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
 }
 
 .portfolio .image-container .box .info{
@@ -199,7 +205,8 @@ header{
 
 .portfolio .image-container .box .info h3{
     font-size: 2.5rem;
-    color:rgb(0, 0, 0);
+    color: #fff;
+    text-shadow: 0 0 8px #000;
 }
 
 
