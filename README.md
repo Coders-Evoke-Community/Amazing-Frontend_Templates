@@ -103,7 +103,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 <div align='center'>
 <h2>👨‍💻 Workflow:</h2>
 
-<p4>To understand in detail go through <a href=''>contributing.md</a></p4>
+<p4>To understand in detail go through <a href='https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates/blob/main/contributing.md'>contributing.md</a></p4>
 </div>
 
 
