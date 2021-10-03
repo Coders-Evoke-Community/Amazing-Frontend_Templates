@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'segoe ui';
+        }
+
+
+        /*Animated background*/
+
+
+        .context {
+            width: 100%;
+            position: absolute;
+            top: 50vh;
+
+        }
+
+        .context h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 50px;
+        }
+
+
+        .area {
+            background: #4e54c8;
+            background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+            width: 100%;
+            height: 100vh;
+
+
+        }
+
+        .circles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .circles li {
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            animation: animate 25s linear infinite;
+            bottom: -150px;
+
+        }
+
+        .circles li:nth-child(1) {
+            left: 25%;
+            width: 80px;
+            height: 80px;
+            animation-delay: 0s;
+        }
+
+
+        .circles li:nth-child(2) {
+            left: 10%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 2s;
+            animation-duration: 12s;
+        }
+
+        .circles li:nth-child(3) {
+            left: 70%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 4s;
+        }
+
+        .circles li:nth-child(4) {
+            left: 40%;
+            width: 60px;
+            height: 60px;
+            animation-delay: 0s;
+            animation-duration: 18s;
+        }
+
+        .circles li:nth-child(5) {
+            left: 65%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 0s;
+        }
+
+        .circles li:nth-child(6) {
+            left: 75%;
+            width: 110px;
+            height: 110px;
+            animation-delay: 3s;
+        }
+
+        .circles li:nth-child(7) {
+            left: 35%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 7s;
+        }
+
+        .circles li:nth-child(8) {
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            animation-delay: 15s;
+            animation-duration: 45s;
+        }
+
+        .circles li:nth-child(9) {
+            left: 20%;
+            width: 15px;
+            height: 15px;
+            animation-delay: 2s;
+            animation-duration: 35s;
+        }
+
+        .circles li:nth-child(10) {
+            left: 85%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 0s;
+            animation-duration: 11s;
+        }
+
+
+
+        @keyframes animate {
+
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+                border-radius: 0;
+            }
+
+            100% {
+                transform: translateY(-1000px) rotate(720deg);
+                opacity: 0;
+                border-radius: 50%;
+            }
+
+        }
+
+
+/*Contact form*/
+
+        .layout {
+            margin: 0 auto;
+            max-width: 1170px;
+            width: 100%;
+            padding: 0 15px;
+            overflow-x: hidden;
+        }
+
+        /*Grid Widht */
+
+        .form-group {
+            float: left;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 50%;
+        }
+
+        .grid-8 {
+            width: 66.6667%;
+        }
+
+        .grid-12 {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        /***Section Css******/
+
+        section {
+            background: #3a6c9d;
+            color: #000;
+            padding: 30px 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .section-title {
+            color: #fff;
+            font-size: 35px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .contact p {
+            color: #929292;
+            letter-spacing: 1.5px;
+            padding-top: 50px;
+        }
+
+        .form {
+            margin: 0 auto;
+        }
+
+        .form form {
+            margin-top: 50px;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        .form-control {
+            width: 100%;
+        }
+
+        .form-control {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+            color: #555;
+            display: block;
+            font-size: 14px;
+            line-height: 1.42857;
+            padding: 6px 12px;
+            transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+            width: 100%;
+            text-transform: capitalize;
+        }
+
+        .costom-btn {
+            background: #22c489;
+            border: 1px solid #22c489;
+            color: #ffffff;
+            font: bold 16px/18px "Open Sans", sans-serif;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 6px 12px;
+            cursor: pointer;
+        }
+
+        .form-group {
+            margin-top: 23px;
+        }
+
+        .icon-text {
+            color: #ffffff;
+            font: 16px/22px "Open Sans", sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 25px 0;
+        }
+
+        .icon-holder {
+            margin: 0 auto;
+            width: 265px;
+        }
+
+        .icon-holder ul li a {
+            color: #ffffff;
+            height: 38px;
+            width: 38px;
+        }
+
+        .icon-holder ul li {
+            display: inline;
+            padding: 12px;
+        }
+
+        @media (max-width:980px) {
+            .layout {
+                width: 80%px;
+            }
+
+            .grid-6 {
+                width: 50%;
+            }
+        }
+
+        @media (max-width:640px) {
+            .layout {
+                width: 80%;
+            }
+
+            .form-group,
+            .grid-8 {
+                width: 100%;
+            }
+
+
+        }
+
+
+
+
+
+        /*Footer*/
+
+        @import "compass/css3";
+
+
+        @import "compass/reset";
+        @import "compass/css3";
+
+
+        body {
+            background: #f77462;
+            font-family: Lato, sans-serif;
+        }
+
+        @font-face {
+            font-family: 'Genericons';
+            src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot');
+            src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff') format('woff'),
+                url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        [class*="genericon"] {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            -webkit-font-smoothing: antialiased;
+            font-size: 16px;
+            line-height: 1;
+            font-family: 'Genericons';
+            text-decoration: inherit;
+            font-weight: normal;
+            font-style: normal;
+            vertical-align: top;
+        }
+
+        /* IE7 */
+        [class*="genericon"] {
+            *overflow: auto;
+            *zoom: 1;
+            *display: inline;
+        }
+
+        .container {
+            margin: 100px auto;
+        }
+
+        .accordion {
+            background: #5ab2ca;
+            width: 100%;
+            min-width: 950px;
+            display: block;
+            list-style-type: none;
+            overflow: hidden;
+            height: 27vh;
+            font-size: 0;
+        }
+
+
+        .tabs {
+            display: inline-block;
+            background-color: #6dc5dd;
+            border-right: #5ab2ca 1px solid;
+            width: 80px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            margin: 0;
+            font-size: 16px;
+            transition: all 0.4s 0.1s ease-in-out;
+        }
+
+        .tabs:hover {
+            width: 450px;
+        }
+
+        .tabs:hover .social-links a:before {
+            margin-left: -100px;
+        }
+
+        .tabs:hover .social-links a:after {
+            margin-left: -5px;
+        }
+
+
+
+        .paragraph {
+            position: relative;
+            width: 360px;
+            margin-left: 80px;
+            padding: 50px 0 0 10px;
+            height: 200px;
+            background: #fff;
+        }
+
+        .paragraph h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .paragraph p {
+            font-size: 0.88em;
+            line-height: 1.5em;
+            padding-right: 30px;
+        }
+
+
+
+        .social-links {
+            display: block;
+        }
+
+        .social-links a {
+            display: block;
+            text-indent: -9999px;
+            font-size: 0;
+            line-height: 0;
+        }
+
+        .social-links a:before,
+        .social-links a:after {
+            transition: all 0.4s 0.1s ease-in-out;
+            width: 80px;
+            height: 200px;
+            position: absolute;
+            text-indent: 0;
+            padding-top: 90px;
+            padding-left: 25px;
+            display: block;
+            font: normal 30px Genericons;
+            color: #fff;
+        }
+
+        .social-links a:after {
+            font-size: 48px;
+            padding-left: 20px;
+            padding-top: 80px;
+            margin-left: 85px;
+        }
+
+
+
+
+        .twitter-icon a:before,
+        .twitter-icon a:after {
+            content: '\f202';
+        }
+
+        .twitter-icon a:after {
+            background-image: linear-gradient(#7adcf9, #4bc9f5);
+        }
+
+        .facebook-icon a:before,
+        .facebook-icon a:after {
+            content: '\f204';
+        }
+
+        .facebook-icon a:after {
+            background-image: linear-gradient(#548abf, #295b9e);
+        }
+
+        .linkedin-icon a:before,
+        .linkedin-icon a:after {
+            content: '\f208';
+        }
+
+        .linkedin-icon a:after {
+            background-image: linear-gradient(#00a9cd, #0083b4);
+        }
+
+        .insta-icon a:before,
+        .insta-icon a:after {
+            content: '\f215';
+        }
+
+        .insta-icon a:after {
+            background-image: linear-gradient(#7fc121, #298733);
+        }
+
+        .youtube-icon a:before,
+        .youtube-icon a:after {
+            content: '\f213';
+        }
+
+        .youtube-icon a:after {
+            background-image: linear-gradient(#df192a, #c41222);
+        }
+
+        .tumblr-icon a:before,
+        .tumblr-icon a:after {
+            content: '\f214';
+        }
+
+        .tumblr-icon a:after {
+            background-image: linear-gradient(#283e56, #325372);
+        }
+
+        .dribbble-icon a:before,
+        .dribbble-icon a:after {
+            content: '\f201';
+        }
+
+        .dribbble-icon a:after {
+            background-image: linear-gradient(#e03a70, #f189b8);
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="context">
+        <h1>Company Name</h1>
+    </div>
+
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+
+<!--Contact form-->
+
+
+    <section class="contact">
+        <div class="layout">
+            <div class="text-center">
+                <h1 class="section-title">Contact Us Layout</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
+                    sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida
+                    felis vitae ipsum pharetra maximus.</p>
+            </div>
+            <div class="grid-8 form">
+                <form action="php/email.php" method="post" id="contact_form" name="contactForm">
+                    <div class="form-inline clearfix">
+                        <div class="form-group grid-6 ">
+                            <input type="text" placeholder="name" id="exampleInputName" name="name"
+                                class="form-control">
+                        </div>
+                        <div class="form-group grid-6">
+                            <input type="email" placeholder="email address" id="exampleInputEmail" name="email"
+                                class="form-control">
+                        </div>
+                        <div class="form-group grid-6">
+                            <input type="text" placeholder="subject" id="exampleInputSubject" name="subject"
+                                class="form-control">
+                        </div>
+                        <div class="form-group grid-6">
+                            <input type="text" placeholder="company" id="exampleInputCompany" name="company"
+                                class="form-control">
+                        </div>
+                        <div class="form-group grid-12">
+                            <textarea placeholder="message" id="exampleInputMessage" rows="3" name="message"
+                                class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div style="display:none;" class="success" id="mail_success">Your message has been sent
+                            successfully.
+                        </div><!-- success message -->
+                        <div style="display:none;" class="error" id="mail_fail"> Sorry, error occured this time sending
+                            your message.
+                        </div><!-- error message -->
+                    </div>
+                    <div id="submit" class="form-group grid-12">
+                        <input type="submit" value="send" class="btn  btn-lg costom-btn" id="send_message">
+                    </div>
+                </form>
+            </div> <!-- /.col-xs-12 .col-sm-offset-2 .col-sm-8 -->
+            <div class="grid-12">
+                <div class="icon-text">
+                    <span>find us on</span>
+                </div><!-- /.icon-text -->
+                <div class="icon-holder">
+                    <ul>
+                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div><!-- /.icon-holder -->
+            </div><!-- /.col-xs-12 -->
+        </div>
+    </section>
+
+
+
+
+    <!--Footer-->
+
+    <div class="container">
+        <ul class="accordion">
+            <li class="tabs">
+                <div class="social-links twitter-icon">
+                    <a href="#">Twitter</a>
+                </div>
+                <div class="paragraph">
+                    <h1>Twitter</h1>
+                    <p>My thoughts in 140 characters or less. Sometimes, I do not know how to correctly use Twitter.</p>
+                </div>
+            </li>
+            <li class="tabs">
+                <div class="social-links facebook-icon">
+                    <a href="#">Facebook</a>
+                </div>
+                <div class="paragraph">
+                    <h1>Facebook</h1>
+                    <p>Where I get to stalk my friends and let them stalk me. A place to get people to stroke your ego.
+                    </p>
+                </div>
+            </li>
+            <li class="tabs">
+                <div class="social-links linkedin-icon">
+                    <a href="#">LinkedIn</a>
+                </div>
+                <div class="paragraph">
+                    <h1>LinkedIn</h1>
+                    <p>I act totally professional on this one. It is what the recruiters see, you see.</p>
+                </div>
+            </li>
+            <li class="tabs">
+                <div class="social-links insta-icon">
+                    <a href="#">Instagram</a>
+                </div>
+                <div class="paragraph">
+                    <h1>Instagram</h1>
+                    <p>Where I post my duckface pictures. Occasionally, I would post pictures of my food and my cats.
+                    </p>
+                </div>
+            </li>
+            <li class="tabs">
+                <div class="social-links youtube-icon">
+                    <a href="#">Youtube</a>
+                </div>
+                <div class="paragraph">
+                    <h1>YouTube</h1>
+                    <p>Just kidding! I do not have a YouTube account. I'm not too fond of the camera.</p>
+                </div>
+            </li>
+            <li class="tabs">
+                <div class="social-links tumblr-icon">
+                    <a href="#">Tumblr</a>
+                </div>
+                <div class="paragraph">
+                    <h1>Tumblr</h1>
+                    <p>I have a tumblr but I don't really use it. I still prefer WordPress. I'm quite old-fashioned.</p>
+                </div>
+            </li>
+            <li class="tabs">
+                <div class="social-links dribbble-icon">
+                    <a href="http://dribbble.com">Dribbble</a>
+                </div>
+                <div class="paragraph">
+                    <h1>Dribbble</h1>
+                    <p>I do not have a Dribbble account. Would any of you be so kind and send me an invite? </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html>
