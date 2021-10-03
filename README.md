@@ -127,6 +127,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 - Copied templates or designs won't be considered 
 - Avoid spams 
 - Make genuine contributions 
+ - Adding Screenshots and recordings are mandatory to add while making a PR.
 
 </i>
 
