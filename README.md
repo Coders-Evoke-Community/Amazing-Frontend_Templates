@@ -39,8 +39,8 @@
 ## 💯 [Give our repo](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates.git) a star 🌟 
 
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Mentro-Community-Blog)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat&logo=git)](https://github.com/Mentro-Org/Mentro-Community-Blog) 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Amazing-Frontend_Templates)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat&logo=git)](https://github.com/Coders-Evoke-Community/Amazing-Frontend_Templates) 
 
 </div>
 
