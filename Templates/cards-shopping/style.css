@@ -1,0 +1,84 @@
+body{
+    margin:10px;
+    padding: 5px;
+    background: rgb(165, 153, 200);
+background: linear-gradient(90deg, rgba(165,153,200,1) 11%, rgba(88,132,214,1) 100%, rgba(157,200,153,1) 100%, rgba(102,218,166,1) 100%, rgba(71,136,213,0.8216328767835259) 100%);
+}
+h1{
+  text-align: center;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+  display: block;
+  margin: 12px auto;
+  border-radius: 20px;
+  width: 50vw;
+  font-family:'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+  .card {
+    background-color: rgba(98, 53, 53, 0.322);
+    color: white;
+   width: 18rem;
+   height: 22rem;
+   border-radius: 1.2rem;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   transition: width 1s, height 1s;
+  }
+  .card:hover{
+    width: 20rem;
+    height: 24rem;
+  }
+    img{
+      display: block;
+      margin: 0px auto;
+      width: 100%;
+      height: 70%;
+      border-radius: 1.2rem;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .price{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 1.0rem;
+  }
+  button{
+    border-radius: 1.2rem;
+    font-size: 1.0rem;
+    width: 15vw;
+    height: 6vh;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
+  a{
+    text-decoration: none;
+  }
+  button:hover{
+    border-radius: 1.2rem;
+    background-color: rgb(197, 175, 175);
+  }
+  @media only screen and (max-width: 493px) {
+    body{
+      background: white;
+    }
+    .card{
+      height: 30rem;
+    }
+    button{
+      border-radius: 1.9rem;
+      height: 8vh;
+      width: 50vw;
+      
+    }
+
+  }
