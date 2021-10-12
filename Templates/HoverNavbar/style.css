@@ -1,0 +1,79 @@
+.brand img{
+    height:90px;
+    width :85px;
+    border-radius: 50%;
+}
+.brand{
+    display: flex;
+    margin-top: 35px;
+}
+.brand h1{
+    font-family:'Times New Roman', Times, serif;
+    margin: 15px;
+    margin-top: 30px ;
+}.navbar{
+    display: flex;
+    
+}
+.from ul {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .from {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 380px;
+    align-items: center;
+    
+    font-weight: 200;
+    color: rgb(15, 15, 15);
+    margin-bottom: 60px;
+  }
+  .from a{
+      text-decoration: none;
+  }
+  
+  .from li {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .drop {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    padding: 0%;
+  }
+  .drop li {
+    display: none;
+  }
+  .from li:hover .drop li {
+    display: block;
+  }
+  .drop a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu-btn i{
+   color: aliceblue;
+   font-size: 22px;
+   cursor: pointer;
+   display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  
