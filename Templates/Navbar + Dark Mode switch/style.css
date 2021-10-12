@@ -1,0 +1,180 @@
+:root{
+  --clr-accent : rgba(45, 139, 169, 0.7);
+  --clr-font : #fff;
+  --clr-btn : #373737;
+  --clr-primary : #fff
+}
+
+.dark-theme{
+  --clr-primary: #373737;
+}
+
+.dark-theme #theme-switcher{
+  background: #373737;
+}
+
+.dark-theme #theme-switcher img{
+  display: block;
+}
+
+.dark-theme #theme-switcher::before{
+  display: none;
+}
+
+
+
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--clr-primary);
+  font-family: sans-serif;
+  background: var(--clr-primary);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--clr-font);
+}
+
+header{
+  background: var(--clr-accent);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 8vh;
+  padding: 0 2em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+
+#Logo{
+  font-weight: bold;
+}
+nav{
+  display: none;
+  flex-direction: column;
+  background: var(--clr-accent);
+  width: 100%;
+  position: absolute;
+  top: 3.6em;
+  right: 0;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+nav ul li{
+  padding-bottom: 2em;
+}
+
+nav ul li:hover{
+  opacity: .7;
+}
+
+.burger{
+  cursor: pointer;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.burger > div {
+  width: 25px;
+  height: 2px;
+  background-color:var(--clr-font);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#theme-switcher{
+  width: 4.5em;
+  height: 2em;
+  border-radius: 15em;
+  background: var(--clr-btn);
+  border: none;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+#theme-switcher::before{
+ content: "";
+ position: absolute;
+ top: 6%;
+ left: 4%;
+ width: 24px;
+ height: 24px;
+ border-radius: 50%;
+ background-color: var(--clr-primary);
+ 
+}
+#theme-switcher img{
+  width: 22px;
+  float: right;
+ position: absolute;
+ top: 5%;
+ right: 0.2em;
+ display: none;
+ filter: invert();
+}
+
+@media(min-width :800px){
+
+  header{
+    padding: 0 14em;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    margin-top: 0;
+    margin-left: 5em;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+}
+
+nav ul li{
+  padding: 0 2em 0 0;
+  border: none;
+}
+
+.burger{
+   display: none;
+}
+#theme-switcher{
+  width: 4.5em;
+  height: 2em;
+  margin-top: 0.5em;
+}
+
+#theme-switcher::before{ 
+  width: 24px;
+  height: 24px;
+}
+}
+@media (min-width:1000px){
+
+  nav ul li{
+      margin-left: 2em;
+  }
+}
