@@ -1,8 +1,9 @@
-# git-kraken-repo
+# Avalon
 
-# DEMO : https://sentra.onrender.com
-# DEMO : https://mk-knight23.github.io/Sendra
+# DEMO : https://mk-knight23.github.io/avalon
 
+# DEMO : https://avalon-web.onrender.com
 
-![Screenshot](sendra1-ss.png)
-![Screenshot](sendra2-ss.png)
+![Screenshot](avalon1-ss.png)
+![Screenshot](avalon2-ss.png)
+![Screenshot](avalon3-ss.png)
