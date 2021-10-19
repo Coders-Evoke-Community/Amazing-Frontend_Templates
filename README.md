@@ -1,5 +1,5 @@
-# THEORY
+# future
 
-# DEMO : https://mk-knight23.github.io/theory
+# DEMO : https://mk-knight23.github.io/future
 
-![Screenshot](theory-ss.png)
+![Screenshot](future-ss.png)
