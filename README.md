@@ -1,9 +1,9 @@
-# Avalon
+# FOX
 
-# DEMO : https://mk-knight23.github.io/avalon
+# DEMO : https://mk-knight23.github.io/fox
 
-# DEMO : https://avalon-web.onrender.com
+# DEMO : https://stoic-swanson-35ce3d.netlify.app
 
-![Screenshot](avalon1-ss.png)
-![Screenshot](avalon2-ss.png)
-![Screenshot](avalon3-ss.png)
+![Screenshot](fox1-ss.png)
+![Screenshot](fox2-ss.png)
+![Screenshot](fox3-ss.png)
