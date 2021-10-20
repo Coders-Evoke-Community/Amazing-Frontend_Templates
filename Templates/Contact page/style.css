@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+:root {
+  --yellow: #dfb211;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+}
+
+*::selection {
+  background: var(--yellow);
+  color: #333;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #222;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+}
+
+body {
+  background: #111;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+
+.btn i {
+  padding: 0 0.5rem;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background: var(--yellow);
+}
+
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #fff4;
+  color: #fff;
+}
+
+.heading span {
+  color: var(--yellow);
+}
+
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact .row form .box {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #3333;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+.contact .row form .box::placeholder {
+  text-transform: capitalize;
+}
+
+.contact .row form .message {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .content .title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contact .row .content .info h3 i {
+  padding-right: 1rem;
+  color: var(--yellow);
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    margin: 0 3rem;
+  }
+
+  .contact .row form {
+    margin: 3rem 0;
+  }
+}
