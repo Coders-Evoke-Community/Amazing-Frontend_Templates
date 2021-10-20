@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    margin:50px 0 0 0;
+    color:white;
+    width:51%;
+}
+
+.dot{
+    height:12px;
+    width:12px;
+    background-color:black;
+    border-radius:50%;
+    display: inline-block;
+}
+
+.parent{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 10px solid brown;
+    padding:20px;
+    background-color:blanchedalmond;
+    border-radius:10px;
+    width: 51%;
+    
+}
+
+.card:hover{
+    box-shadow: 10px 10px 100px blanchedalmond ;
+    background-color:brown;
+    border-style: outset;
+    color: white;
+}
+
+.empty-begin{
+    height:100px;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    background-color: transparent;
+    width:30%;
+}
+
+.empty-end{
+    height:100px;
+    background-color: transparent;
+}
+
+.empty{
+    height:80px;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    background-color: transparent;
+    width:30%;
+}
+
+.event-name{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.upper{
+    display: flex;
+    margin: 15px 5px 15px 5px;
+}
+
+.date{
+    margin: 0 25px 0 0;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.time{
+    margin: 0 25px 0 25px;
+}
+
+.description{
+    margin: 5px;
+}
