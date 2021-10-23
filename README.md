@@ -1,8 +1,5 @@
-# git-kraken-repo
+# future
 
-# DEMO : https://sentra.onrender.com
-# DEMO : https://mk-knight23.github.io/Sendra
+# DEMO : https://mk-knight23.github.io/future
 
-
-![Screenshot](sendra1-ss.png)
-![Screenshot](sendra2-ss.png)
+![Screenshot](future-ss.png)

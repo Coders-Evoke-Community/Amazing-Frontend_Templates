@@ -1,0 +1,396 @@
+/*
+ * Fox by FreeHTML5.co
+ * Twitter: https://twitter.com/fh5co
+ * Facebook: https://fb.com/fh5co
+ * URL: https://freehtml5.co
+ */
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #000;
+}
+body .bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+}
+body nav {
+  background: rgba(255, 255, 255, 0.1);
+}
+body nav .navbar-nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff !important;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+body nav .navbar-nav a:hover {
+  color: #ff8013 !important;
+}
+body nav .navbar-nav .btn-danger {
+  background: #ff8013;
+  border-color: #ff8013;
+  border-radius: 0;
+}
+body nav .navbar-nav .btn-danger:hover {
+  background: #df6700;
+  border-color: #df6700;
+}
+
+a, a:hover {
+  color: #ff8013;
+}
+
+.fh5co-banner-text-box {
+  position: relative;
+  max-height: 120px;
+  display: inline-block;
+  margin-top: 250px;
+}
+.fh5co-banner-text-box .quote-box {
+  max-width: 455px;
+  padding: 20px 0;
+}
+.fh5co-banner-text-box .quote-box h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+}
+.fh5co-banner-text-box .quote-box h2 span {
+  color: #ff8013;
+  font-size: 34px;
+}
+.fh5co-banner-text-box .quote-box::before {
+  content: "";
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  left: 0;
+  top: 0;
+  background: url("../images/right-quote.png");
+  background-repeat: no-repeat;
+}
+.fh5co-banner-text-box .quote-box::after {
+  content: "";
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  background: url("../images/left-quote.png");
+  background-repeat: no-repeat;
+  right: 0;
+  bottom: 0;
+}
+.fh5co-banner-text-box a {
+  color: #fff;
+  border-color: #4e2b0d;
+  border-radius: 0;
+  min-width: 150px;
+}
+.fh5co-banner-text-box a:hover {
+  background: transparent;
+  border-color: gray;
+  color: #ff8013;
+}
+
+.fh5co-network, .fh5co-about-us {
+  background: url("../images/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 50px 0;
+  padding-top: 30px;
+}
+.fh5co-network figure, .fh5co-about-us figure {
+  margin-top: -70px !important;
+}
+.fh5co-network h2, .fh5co-about-us h2 {
+  color: #ff8013;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.fh5co-network h4, .fh5co-about-us h4, .fh5co-network h5, .fh5co-about-us h5, .fh5co-network p, .fh5co-about-us p {
+  color: #282828;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+.fh5co-network hr, .fh5co-about-us hr {
+  border-color: #ff8013;
+  border-width: 5px;
+  max-width: 100px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+.fh5co-network figure, .fh5co-about-us figure {
+  text-align: center;
+}
+
+.fh5co-about-us {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.fh5co-about-us p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+.fh5co-about-us hr {
+  border-color: #fff;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.fh5co-about-us a {
+  color: #fff !important;
+  border-color: #4e2b0d;
+  border-radius: 0;
+  min-width: 150px;
+}
+.fh5co-about-us a:hover {
+  background: transparent;
+  border-color: gray;
+  color: #ff8013;
+}
+
+.fh5co-content-box {
+  background: #464646;
+  padding-bottom: 100px;
+}
+.fh5co-content-box .pr-0 img {
+  margin-top: -128px;
+}
+.fh5co-content-box img {
+  width: 100%;
+}
+.fh5co-content-box .card-img-overlay {
+  color: #fff;
+  text-align: center;
+  top: 35%;
+}
+.fh5co-content-box .trainers {
+  position: relative;
+  padding: 50px 0;
+  margin: 70px 0;
+  background: url("../images/gym2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
+}
+.fh5co-content-box .trainers .bg-50 {
+  background: rgba(0, 0, 0, 0.3);
+}
+.fh5co-content-box .trainers .card {
+  border: none;
+  background: transparent;
+}
+.fh5co-content-box .trainers .card img {
+  max-width: 250px;
+  margin: 0 auto;
+  max-height: 250px;
+}
+.fh5co-content-box .trainers .card .card-body {
+  background: #ccc;
+  border-radius: 15px;
+  padding: 30px 20px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.fh5co-content-box .trainers .card .card-body::before {
+  content: "";
+  position: absolute;
+  border: 20px solid #ccc;
+  border-color: transparent transparent #ccc transparent;
+  margin-top: -70px;
+  text-align: center;
+  margin-left: -15px;
+}
+.fh5co-content-box .trainers .quote-box2 {
+  color: #fff;
+  max-width: 250px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.fh5co-content-box .trainers .quote-box2::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 0;
+  top: -10px;
+  background: url("../images/right-quote-white.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.fh5co-content-box .trainers .quote-box2::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url("../images/left-quote-white.png");
+  background-repeat: no-repeat;
+  right: 0;
+  bottom: -10px;
+  background-size: 100% 100%;
+}
+.fh5co-content-box .trainers::before, .fh5co-content-box .trainers::after {
+  content: "";
+  position: absolute;
+  border: 5px solid #ff8013;
+  width: 100%;
+  top: -10px;
+}
+.fh5co-content-box .trainers::before {
+  bottom: -10px;
+  top: auto;
+}
+.fh5co-content-box .gallery .card {
+  border: none;
+  background: transparent;
+}
+.fh5co-content-box .gallery .card img {
+  border-radius: 0;
+  max-height: 580px;
+}
+.fh5co-content-box .gallery .card .card-body {
+  background: #ff8013;
+}
+.fh5co-content-box .gallery .card .card-body h4 {
+  color: #fff;
+}
+.fh5co-content-box .gallery .card .card-body p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  background: #101011;
+  color: #fff;
+}
+footer .footer1 p {
+  margin-top: 30px;
+}
+footer .footer2 h4 {
+  color: #ff8013;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px auto;
+}
+footer .footer2 .form-box {
+  background: #fff;
+  padding: 20px 30px;
+  margin-top: -30px;
+}
+footer .footer2 input[type='text'], footer .footer2 input[type='email'] {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+footer .footer2 input[type='text']:focus, footer .footer2 input[type='email']:focus {
+  box-shadow: none;
+  border-color: #ff8013;
+}
+footer .footer2 .btn {
+  min-width: 150px;
+  border-radius: 0;
+}
+footer .footer2 ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #262626;
+}
+footer .footer2 ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #262626;
+}
+footer .footer2 :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #262626;
+}
+footer .footer2 :-moz-placeholder {
+  /* Firefox 18- */
+  color: #262626;
+}
+footer .footer3 {
+  padding-top: 50px;
+}
+footer .footer3 a {
+  background: #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  padding-top: 5px;
+}
+footer .footer3 a:hover {
+  background: #ff8013;
+}
+footer .footer3 .nav-item li {
+  margin: 0 5px;
+}
+footer .table td, footer .table th {
+  border: none;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  border: 3px solid #ff8013;
+  width: 100%;
+  left: 0;
+}
+
+@media (max-width: 1199px) {
+  .fh5co-content-box .pr-0 img {
+    margin-top: -107px;
+  }
+}
+@media (max-width: 991px) {
+  .fh5co-content-box .pr-0 img {
+    margin-top: -78px;
+  }
+  .fh5co-content-box .card-img-overlay {
+    top: 20%;
+  }
+}
+@media (max-width: 767px) {
+  body nav .navbar-nav {
+    margin-left: 0 !important;
+    max-width: 50px;
+  }
+
+  .fh5co-network figure, .fh5co-about-us figure {
+    margin-top: 0 !important;
+  }
+
+  .fh5co-content-box .pr-0 img {
+    margin: 20px auto;
+  }
+  .fh5co-content-box .col-md-5 {
+    padding: 0 !important;
+  }
+  .fh5co-content-box .col-md-7 {
+    padding: 0 !important;
+  }
+
+  .gallery .card {
+    margin-bottom: 25px;
+  }
+
+  .footer1 {
+    min-height: 150px;
+  }
+
+  .footer2 .form-box {
+    margin-top: 0 !important;
+  }
+}
