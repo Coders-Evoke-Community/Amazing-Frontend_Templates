@@ -1,0 +1,140 @@
+  <!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style_todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<!-- Bootstrap Css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Bootstrap Font Icon Css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TODO LIST</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects Done</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Info</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><span class="bi-search"></span>Explore</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+	  <select class="form-select" aria-label="Default select example">
+        <option selected>Categories of Work</option>
+        <option value="1">Most Important Tasks</option>
+        <option value="2">Moderate Important Tasks</option>
+        <option value="3">Least Important Task</option>
+        <option value="4">Other Tasks</option>
+      </select>
+  <div class="wrapper">
+    <header>Todo List App</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are coming from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+   <div id="items" class="my-2">
+                <h2><b> Added Subjects</b></h2>
+                <table class="table">
+
+                      <tr>
+                        <th scope="col">Sl.No.</th>
+                        <th scope="col">Item Title</th>
+                        <th scope="col">Item Description</th> 
+                        <th scope="col">Required Action</th> 
+                      </tr>
+                    <tbody id="tableBody">
+                      <tr>
+                        <th scope="row">1</th>
+                        <td><div class="inputField">
+                           <input type="text" placeholder="Topics to be cover">
+                          <button><i class="fas fa-plus"></i></button>
+                        </div><ul class="TopicList">
+      <!-- data are coming from local storage -->
+    </ul></td>
+                        <td style="color: indigo;"> Priorities by subsections, make cheatsheats , flashcards </td> 
+                        <td><button class="btn btn-sm btn-warning">Complete</button></td> 
+                      </tr>
+                      
+                    </tbody>
+
+                    <tbody id="tableBody">
+                      <tr>
+                        <th scope="row">2</th>
+                        <td><div class="inputField">
+                           <input type="text" placeholder="Topics to be cover">
+                          <button onclick="fn1()" id="btn1">Add</button>
+						  <input type="text" id="reply">
+                        </div><ul class="TopicList">
+      <!-- data are coming from local storage -->
+    </ul></td>
+                         <td style="color: darkgreen;"> Priorities by subsections, make cheatsheats , flashcards </td> 
+                        <td><button class="btn btn-sm btn-warning">Complete</button></td> 
+                       
+                      </tr>
+                      
+                    </tbody>
+		<tbody id="tableBody">
+                      <tr>
+                        <th scope="row">3</th>
+                        <td><div class="inputField">
+                           <input type="text" placeholder="Topics to be cover">
+                          <button><i class="fas fa-plus"></i></button>
+                        </div><ul class="TopicList">
+      <!-- data are coming from local storage -->
+    </ul></td>
+                         <td style="color: maroon;"> Priorities by subsections, make cheatsheats , flashcards </td> 
+                        <td><button class="btn btn-sm btn-warning">Complete</button></td> 
+                       
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+
+            </div>
+        </div>
+  <script src="script_todo.js"></script>
+  <script> function fn1()
+{
+	var str = document.getElementById("str").value;
+	var str = document.getElementById("reply").value;
+     var temp = str.value;
+	 reply.value = temp
+}
+</script>
+<footer>
+<center><b>All copyright is Preserved to : &copy;Fluff-Balls</b></center>
+    </footer>
+	</center>
+</body>
+</html>
