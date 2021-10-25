@@ -1,11 +1,11 @@
-/*==================== GOOGLE FONTS ====================*/
+/*==================== GOOGLE FONTS ===================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/*==================== VARIABLES CSS ====================*/
+/*==================== VARIABLES CSS ==================*/
 :root {
     --header-height: 3rem;
 
-    /*========== Colors ==========*/
+    /*================== Colors ======================*/
     /* Change favorite color */
     --hue-color: 335; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 

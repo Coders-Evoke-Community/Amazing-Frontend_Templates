@@ -1,0 +1,14 @@
+body{
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background-color: black;
+    color: white;
+  }
+  ::-webkit-scrollbar{
+    width: 0.2em;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 10px;
+  }

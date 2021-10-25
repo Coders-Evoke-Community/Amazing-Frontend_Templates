@@ -1,0 +1,59 @@
+body{
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background-color: black;
+    color: white;
+  }
+  /* width of scroll bar  */
+  /* this will disable the default scroll bar because we are creating it from scratch  */
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  #scrollPath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+  }
+  #progressBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    /* height: 100%; */
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    /* this animation makes scroll bar color change  */
+    animation : animate 5s linear infinite;
+  }
+  /* all code below this is of animation effect  */
+  @keyframes animate {
+    0%, 100%{
+      filter: hue-rotate(0deg);
+    }
+    50%{
+      filter: hue-rotate(360deg);
+    }
+  }
+  #progressBar:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter: blur(10px);
+  }
+  #progressBar:after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter: blur(30px);
+  }
