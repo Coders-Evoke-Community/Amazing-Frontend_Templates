@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event page</title>
+
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <style>
+
+*{ 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        background-color: #48a5b3;
+      }
+      
+      @media (min-width: 700px) {
+        .hero {
+          padding: 3rem;
+        }
+      }
+      
+      @media (min-width: 1200px) {
+        .hero {
+          padding: 6rem;
+        }
+      }
+      
+      .hero-inner {
+        max-width: 900px;
+        margin: auto;
+      }
+      
+      .hero-inner p,
+      .hero h2 {
+        color: #fff;
+      }
+      
+      .buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      
+      @media (min-width: 600px) {
+        .buttons {
+          display: grid;
+          /* Wide buttons */
+          grid-template-columns: 1fr 1fr;
+          /* Centered, narrow buttons */
+          grid-template-columns: auto auto;
+          gap: 1rem;
+          justify-content: center;
+        }
+      }
+      
+      .hero-button {
+        background: #fff;
+        color: #444;
+        border: 0;
+        padding: 1rem 2rem;
+        display: inline-block;
+        margin-top: 1rem;
+      }
+      
+      @media (min-width: 700px) {
+        .hero-button {
+          margin-top: 2rem;
+        }
+      }
+      
+      .hero-button.ghost {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+
+
+      .major{
+          background-color: rgb(98, 98, 98);
+      }
+
+      /*caraosal css*/
+
+      *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+
+        .outer-wrapper {
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        .s-wrap {
+            width: 100%;
+            margin-bottom: 50px;
+            padding-bottom: 55%;
+            position: relative;
+            border: 10px solid #fff;
+            background-color: #efefe8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .s-wrap>input {
+            display: none;
+        }
+
+        .s-wrap .s-content {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 500%;
+            height: 100%;
+            font-size: 0;
+            list-style: none;
+            transition: transform 1s;
+        }
+
+        .s-wrap .s-item {
+            display: inline-block;
+            width: 20%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .s-wrap .s-item-1 {
+            background-image: url("event.jpg");
+        }
+
+        .s-wrap .s-item-2 {
+            background-image: url("event.jpg");
+        }
+
+        .s-wrap .s-item-3 {
+            background-image: url("event.jpg");
+        }
+
+        .s-wrap .s-item-4 {
+            background-image: url("event.jpg");
+        }
+
+        .s-wrap .s-item-5 {
+            background-image: url("event.jpg");
+        }
+
+        .s-type-1 .s-control {
+            position: absolute;
+            bottom: 18px;
+            left: 50%;
+            text-align: center;
+            transform: translateX(-50%);
+            transition-timing-function: ease-out;
+        }
+
+        .s-type-1 .s-control>label[class^="s-c-"] {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 10px;
+            border-radius: 50%;
+            border: 1px solid #999;
+            background-color: #efefe8;
+            cursor: pointer;
+        }
+
+        .s-type-1 .s-nav label {
+            display: none;
+            position: absolute;
+            top: 50%;
+            padding: 5px 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .s-type-1 .s-nav label::before,
+        .s-type-1 .s-nav label::after {
+            content: "";
+            display: block;
+            width: 8px;
+            height: 24px;
+            background-color: #fff;
+        }
+
+        .s-type-1 .s-nav label::before {
+            margin-bottom: -12px;
+        }
+
+        .s-type-1 .s-nav label.left {
+            left: 20px;
+        }
+
+        .s-type-1 .s-nav label.left::before {
+            transform: rotate(45deg);
+        }
+
+        .s-type-1 .s-nav label.left::after {
+            transform: rotate(-45deg);
+        }
+
+        .s-type-1 .s-nav label.right {
+            right: 20px;
+        }
+
+        .s-type-1 .s-nav label.right::before {
+            transform: rotate(-45deg);
+        }
+
+        .s-type-1 .s-nav label.right::after {
+            transform: rotate(45deg);
+        }
+
+        .s-type-1 #s-1:checked~.s-content {
+            transform: translateX(0%);
+        }
+
+        .s-type-1 #s-1:checked~.s-control .s-c-1 {
+            background-color: #333;
+        }
+
+        .s-type-1 #s-1:checked~.s-nav .s-nav-1 {
+            display: block;
+        }
+
+        .s-type-1 #s-2:checked~.s-content {
+            transform: translateX(-20%);
+        }
+
+        .s-type-1 #s-2:checked~.s-control .s-c-2 {
+            background-color: #333;
+        }
+
+        .s-type-1 #s-2:checked~.s-nav .s-nav-2 {
+            display: block;
+        }
+
+        .s-type-1 #s-3:checked~.s-content {
+            transform: translateX(-40%);
+        }
+
+        .s-type-1 #s-3:checked~.s-control .s-c-3 {
+            background-color: #333;
+        }
+
+        .s-type-1 #s-3:checked~.s-nav .s-nav-3 {
+            display: block;
+        }
+
+        .s-type-1 #s-4:checked~.s-content {
+            transform: translateX(-60%);
+        }
+
+        .s-type-1 #s-4:checked~.s-control .s-c-4 {
+            background-color: #333;
+        }
+
+        .s-type-1 #s-4:checked~.s-nav .s-nav-4 {
+            display: block;
+        }
+
+        .s-type-1 #s-5:checked~.s-content {
+            transform: translateX(-80%);
+        }
+
+        .s-type-1 #s-5:checked~.s-control .s-c-5 {
+            background-color: #333;
+        }
+
+        .s-type-1 #s-5:checked~.s-nav .s-nav-5 {
+            display: block;
+        }
+
+        @keyframes slider-animation {
+
+            0%,
+            7% {
+                transform: translateX(0%);
+            }
+
+            12.5%,
+            19.5% {
+                transform: translateX(-20%);
+            }
+
+            25%,
+            32% {
+                transform: translateX(-40%);
+            }
+
+            37.5%,
+            44.5% {
+                transform: translateX(-60%);
+            }
+
+            50%,
+            57% {
+                transform: translateX(-80%);
+            }
+
+            62.5%,
+            69.5% {
+                transform: translateX(-60%);
+            }
+
+            75%,
+            82% {
+                transform: translateX(-40%);
+            }
+
+            87.5%,
+            94.5% {
+                transform: translateX(-20%);
+            }
+        }
+
+/*Event timeline*/
+
+
+.timeline {
+            margin: 0 auto;
+            max-width: 750px;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: 1fr 3px 1fr;
+            font-family: "Fira Sans", sans-serif;
+            color: #d04181;
+        }
+
+        .timeline__component {
+            margin: 0 20px 20px 20px;
+        }
+
+        .timeline__component--bg {
+            padding: 1.5em;
+            background: rgb(209, 209, 209);
+            box-shadow: 0 0 3px #106fb4;
+            border-radius: 10px;
+        }
+
+        /* LEAVE TILL LAST */
+        .timeline__component--bottom {
+            margin-bottom: 0;
+        }
+
+        .timeline__middle {
+            position: relative;
+            background: #d6d6d6;
+        }
+
+        .timeline__point {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 15px;
+            height: 15px;
+            background: #3F8BC3;
+            border-radius: 50%;
+        }
+
+        /* LEAVE TILL LAST */
+        .timeline__point--bottom {
+            top: initial;
+            bottom: 0;
+        }
+
+        .timeline__date--right {
+            text-align: right;
+            color: tomato;
+        }
+
+        .timeline__title {
+            margin: 0;
+            font-size: 1.15em;
+            font-weight: bold;
+            color: #391472;
+        }
+
+        .timeline__paragraph {
+            line-height: 1.5;
+        }
+
+        .timeline__date {
+            color: tomato;
+        }
+
+        .titol {
+            font-style: italic;
+        }
+
+        .footer{
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+}
+
+.footer .column{
+width:20%;
+margin:0% 1%;
+display:inline-block;
+}
+
+.footer .column ul{
+width:100%;
+}
+
+.footer .column ul li{
+list-style:none;
+padding:5px 0px;
+color:gray;
+}
+
+.footer .column ul li a{
+text-decoration:none;
+font-size:1em;
+color:gray;
+transition:0.5s;
+}
+
+.footer .column ul li a:hover{
+color:#f7bd00;
+}
+
+.footer .column ul .title{
+font-family: 'Fredoka One', cursive;
+font-size:1.2em;
+color:#fff;
+}
+
+.footer .column ul li input{
+padding:10px 5px;
+outline:none;
+border:0;
+width:70%;
+height:40px;
+color:#1e1e1e;
+}
+
+.footer .column ul li .btn1{
+outline:none;
+border:0;
+padding:5px;
+color:#fff;
+height:44px;
+position:relative;
+top:1px;
+font-size:0.5em;
+background:#f7bd00;
+}
+
+.footer .column ul li i{
+font-size:2em;
+margin:0px 10px;
+}
+
+.sub-footer{
+background:#1e1e1e;
+padding:5px 0px;
+text-align:center;
+color:gray;
+font-size:12px;
+font-family: 'Play', sans-serif;
+}
+
+@media (max-width:720px){
+.footer .column{
+width:90%;
+display:block;
+margin:0% 0%;
+}
+
+.footer .column:nth-child(2),.footer .column:nth-child(3){
+width:40%;
+display:inline-block;
+}
+}
+
+@media (max-width:1200px){
+.footer .column ul li input{
+padding:5px 5px;
+outline:none;
+border:0;
+width:70%;
+height:34px;
+color:#1e1e1e;
+}
+.footer .column ul li .btn1{
+position:relative;
+top:2px;
+}
+}
+
+@media (max-width:940px){
+.footer .column ul li input{
+padding:5px 5px;
+outline:none;
+border:0;
+width:60%;
+height:34px;
+color:#1e1e1e;
+}
+.footer .column ul li .btn1{
+position:relative;
+top:2px;
+}
+}
+
+
+</style>
+
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-inner">
+          <h2>COMPANY NAME</h2>
+          <p>Donec lobortis magna at ligula tristique maximus. Suspendisse lacinia ligula lacus. Nunc id risus a dui bibendum finibus tincidunt eu magna. Suspendisse a dictum neque. Suspendisse sit amet diam et libero posuere pharetra. Sed vel magna nec dolor aliquam lobortis vitae id ante.</p>
+          <div class="buttons">
+            <button class="hero-button ghost">About Us</button><button class="hero-button">Contact Us</button>
+          </div>
+          
+        </div>
+        <br><br>
+      </header>
+
+      <section>
+<div class="major">
+
+<br>
+    <h1 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;font-size:3vw;">EVENT HIGHLIGHTS</h1>
+
+     <!--Carousal -->
+
+     <div class="outer-wrapper">
+        <div class="s-wrap s-type-1" role="slider">
+            <input type="radio" id="s-1" name="slider-control" checked="checked">
+            <input type="radio" id="s-2" name="slider-control">
+            <input type="radio" id="s-3" name="slider-control">
+            <input type="radio" id="s-4" name="slider-control">
+            <input type="radio" id="s-5" name="slider-control">
+            <ul class="s-content">
+                <li class="s-item s-item-1"></li>
+                <li class="s-item s-item-2"></li>
+                <li class="s-item s-item-3"></li>
+                <li class="s-item s-item-4"></li>
+                <li class="s-item s-item-5"></li>
+            </ul>
+            <div class="s-control">
+                <label class="s-c-1" for="s-1"></label>
+                <label class="s-c-2" for="s-2"></label>
+                <label class="s-c-3" for="s-3"></label>
+                <label class="s-c-4" for="s-4"></label>
+                <label class="s-c-5" for="s-5"></label>
+            </div>
+            <div class="s-nav">
+                <label class="s-nav-1 right" for="s-2"></label>
+                <label class="s-nav-2 left" for="s-1"></label>
+                <label class="s-nav-2 right" for="s-3"></label>
+                <label class="s-nav-3 left" for="s-2"></label>
+                <label class="s-nav-3 right" for="s-4"></label>
+                <label class="s-nav-4 left" for="s-3"></label>
+                <label class="s-nav-4 right" for="s-5"></label>
+                <label class="s-nav-5 left" for="s-4"></label>
+            </div>
+        </div>
+    </div>
+
+
+<!--Event timeline-->
+<br>
+<h1 style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;font-size:3vw;">EVENT TIMELINE</h1>
+<br>
+<div class="timeline">
+    <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">30th Sept, 2021</div>
+    </div>
+    <div class="timeline__middle">
+        <div class="timeline__point"></div>
+    </div>
+    <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title">Session name</h2>
+        <p class="timeline__paragraph">
+            Lorem ipsum dolor sit amet
+            <span class="titol"><a href="#" target="_blank">Session link</a></span>.
+        </p>
+    </div>
+
+    <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title">Session name</h2>
+        <p class="timeline__paragraph">
+            Lorem ipsum dolor sit amet 
+            <span class="titol"><a href="#" target="_blank">Session link</a></span>.
+        </p>
+    </div>
+
+    <div class="timeline__middle">
+        <div class="timeline__point"></div>
+    </div>
+    <div class="timeline__component">
+        <div class="timeline__date">15th Aug, 2021</div>
+    </div>
+
+    <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">1st April, 2021</div>
+    </div>
+    <div class="timeline__middle">
+        <div class="timeline__point"></div>
+    </div>
+
+    <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title">Session name</h2>
+        <p class="timeline__paragraph">
+            Lorem ipsum dolor sit amet 
+            <span class="titol"><a href="#" target="_blank">Session link</a></span>.
+        </p>
+    </div>
+
+    <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title">Session name</h2>
+        <p class="timeline__paragraph">
+            Lorem ipsum dolor sit amet 
+            <span class="titol"><a href="#" target="_blank">Session link</a></span>.
+        </p>
+    </div>
+
+
+    <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point timeline__point--bottom"></div>
+    </div>
+    <div class="timeline__component timeline__component--bottom">
+        <div class="timeline__date">21st March, 2021</div>
+    </div>
+</div>
+
+<!--footer-->
+
+<br>
+<footer>
+    <div class="footer">
+    <div class="column">
+    <ul>
+    <li class="title">  Company</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+    </ul>
+    </div>
+    
+    <div class="column">
+    <ul>
+    <li class="title">OTHER LINKS</li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Cookie Policy</a></li>
+    <li><a href="#">Tickets</a></li>
+    </ul>
+    </div>
+    
+    <div class="column">
+    <ul>
+    <li class="title">SHORT CUT</li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Our Mission</a></li>
+    <li><a href="#">About Us</a></li>
+    </ul>
+    </div>
+    
+    <div class="column">
+    <ul>
+    <li class="title">NEWSLETTER</li>
+    <li>
+    <form action="#" method="post">
+    <input type="email" name="email" placeholder="Email*" maxlength="80" required /><button class="btn1"><i class="fa fa-paper-plane"></i></button>
+    </form>
+    </li>
+    <li>
+    <a href="#" title="Address,State,Country,Pincode"><i class="fa fa-map-marker"></i></a>
+    <a href="#"><i class="fa fa-phone"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </footer>
+
+
+</div>
+
+      </section>
+</body>
+</html>

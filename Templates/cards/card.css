@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f0f1f5;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+.mainCon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cardCon {
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.cardHeading{
+  overflow: hidden;
+}
+.cardHeading img{
+  transition: all 1.0s ease;
+}
+.cardHeading:hover img {
+	transform: scale(1.5);
+  /* animation: rotation 2s infinite linear; */
+
+}
+
+/* This particular commented codesnippet can be used if you want to rotate your images */
+
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+.cardBody p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}

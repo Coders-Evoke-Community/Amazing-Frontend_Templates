@@ -1,0 +1,288 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgxSsPduCrQY9fp8wQEOgfWeBbuT4NV2KzkRDt0cL-hyfcOK8a7y2v99up9E0fCo5-4Lw&usqp=CAU);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+/* button Type 1*/
+
+button {
+    margin: 2rem 3rem;
+    padding: 1rem;
+    border: 2px white solid;
+    border-radius: 0px;
+    width: max-content;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+  button:active{
+      transform: scale(1.2);
+      box-shadow: none;
+  }
+
+  /* Animations for buttons */
+
+  @keyframes flicker-1-white {
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      color: #fff;
+      text-shadow:
+          /* Small radius glow */
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          /* Large radius glow */
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
+      }
+      20%, 24%, 55% {       
+        text-shadow: none;
+      }
+  }
+  @keyframes flicker-1-black {
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      color: #000;
+      text-shadow:
+          /* Small radius glow */
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          /* Large radius glow */
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
+      }
+      20%, 24%, 55% {       
+        text-shadow: none;
+      }
+  }
+  @keyframes flicker-2 {
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      color: #fff;
+      text-shadow:
+          /* Small radius glow */
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          /* Large radius glow */
+          0 0 42px #f09,
+          0 0 82px #f09,
+          0 0 92px #f09,
+          0 0 102px #f09,
+          0 0 151px #f09;
+      }
+      20%, 24%, 55% {       
+        text-shadow: none;
+      }
+  }
+  @keyframes flicker-3 {
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      color: #fff;
+      text-shadow:
+          /* Small radius glow */
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          /* Large radius glow */
+          0 0 42px #527,
+          0 0 82px #527,
+          0 0 92px #527,
+          0 0 102px #527,
+          0 0 151px #527;
+      }
+      20%, 24%, 55% {       
+        text-shadow: none;
+      }
+  }
+  @keyframes flicker-4 {
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      color: #fff;
+      text-shadow:
+          /* Small radius glow */
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          /* Large radius glow */
+          0 0 42px #5271ff,
+          0 0 82px #5271ff,
+          0 0 92px #5271ff,
+          0 0 102px #5271ff,
+          0 0 151px #5271ff;
+      }
+      20%, 24%, 55% {       
+        text-shadow: none;
+      }
+  }
+  @keyframes flicker-5 {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    color: #fff;
+    text-shadow:
+        /* Small radius glow */
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        /* Large radius glow */
+        0 0 42px #ffa500,
+        0 0 82px #ffa500,
+        0 0 92px #ffa500,
+        0 0 102px #ffa500,
+        0 0 151px #ffa500;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+}
+  
+  /* Theme with combination of animation and font family */
+  /* Theme-XY-z | X = number of keyframe Y = font family z=font color*/
+  
+  .Theme-1E-w{
+      animation: flicker-1-white 1.5s infinite alternate;
+      font-family: 'Ephesis', cursive;
+  }
+  .Theme-2E{
+      animation: flicker-2 1.5s infinite alternate;
+      font-family: 'Ephesis', cursive;
+  }
+  .Theme-3E{
+      animation: flicker-3 1.5s infinite alternate;
+      font-family: 'Ephesis', cursive;
+  }
+  .Theme-4E{
+      animation: flicker-4 1.5s infinite alternate;
+      font-family: 'Ephesis', cursive;
+  }
+  .Theme-5E{
+    animation: flicker-5 1.5s infinite alternate;
+    font-family: 'Ephesis', cursive;
+}
+  .Theme-1V-w{
+      animation: flicker-1-white 1.5s infinite alternate;
+      font-family: 'Vibur', cursive;
+  }
+  .Theme-2V{
+      animation: flicker-2 1.5s infinite alternate;
+      font-family: 'Vibur', cursive;
+  }
+  .Theme-3V{
+      animation: flicker-3 1.5s infinite alternate;
+      font-family: 'Vibur', cursive;
+  }
+  .Theme-4V{
+      animation: flicker-4 1.5s infinite alternate;
+      font-family: 'Vibur', cursive;
+  }
+  .Theme-5V{
+    animation: flicker-5 1.5s infinite alternate;
+    font-family: 'Vibur', cursive;
+}
+  
+  /* cx | adds border for keyframe x */
+  .c1{
+      box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #0fa,
+                0 0 0.8rem #0fa,
+                0 0 2.8rem #0fa,
+                inset 0 0 1.3rem #0fa;
+  }
+  .c2{
+      box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #f09,
+                0 0 0.8rem #f09,
+                0 0 2.8rem #f09,
+                inset 0 0 1.3rem #f09;
+  }
+  .c3{
+      box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #527,
+                0 0 0.8rem #527,
+                0 0 2.8rem #527,
+                inset 0 0 1.3rem #527;
+  }
+  .c4{
+      box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #5271ff,
+                0 0 0.8rem #5271ff,
+                0 0 2.8rem #5271ff,
+                inset 0 0 1.3rem #5271ff;
+  }
+  .c5{
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #ffa500,
+              0 0 0.8rem #ffa500,
+              0 0 2.8rem #ffa500,
+              inset 0 0 1.3rem #ffa500;
+}
+
+
+/* Button Type 2*/
+
+.btn2{
+    margin: 2rem 3rem;
+    padding: 1rem;
+    border: 2px white solid;
+    border-radius: 0px;
+    width: max-content;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+  }
+  .btn2:active{
+      transform: scale(1.2);
+      box-shadow: none;
+  }
+
+  .Type-2a{
+    background-color: #0fa;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #0fa,
+                0 0 0.8rem #0fa,
+                0 0 2.8rem #0fa,
+                inset 0 0 1.3rem #0fa;
+  }
+  .Type-2b{
+    background-color: #f09;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #f09,
+                0 0 0.8rem #f09,
+                0 0 2.8rem #f09,
+                inset 0 0 1.3rem #f09;
+  }
+  .Type-2c{
+    background-color: #527;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #527,
+                0 0 0.8rem #527,
+                0 0 2.8rem #527,
+                inset 0 0 1.3rem #527;
+  }
+  .Type-2d{
+    background-color: #5271ff;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #5271ff,
+                0 0 0.8rem #5271ff,
+                0 0 2.8rem #5271ff,
+                inset 0 0 1.3rem #5271ff;
+  }
+  .Type-2e{
+    background-color: #ffa500;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #ffa500,
+              0 0 0.8rem #ffa500,
+              0 0 2.8rem #ffa500,
+              inset 0 0 1.3rem #ffa500;
+  }
