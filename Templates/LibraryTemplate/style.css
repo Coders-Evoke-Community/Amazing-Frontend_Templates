@@ -1,0 +1,14 @@
+@media (max-width: 55rem) {
+  #header {
+    justify-content: space-evenly;
+  }
+  #logo,
+  #nav-bar {
+    margin: 0;
+    text-align: center;
+  }
+  #banner-content{
+    flex-direction: column;
+    text-align: center;
+  }
+}
