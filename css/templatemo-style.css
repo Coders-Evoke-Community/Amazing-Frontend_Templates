@@ -10,6 +10,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.div3:hover { background-color: #435fa1; }
+
+
 p {
   font-size: 13px;
   color: #7a7a7a;
