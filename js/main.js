@@ -24,7 +24,41 @@ jQuery(document).ready(function($) {
             $('#main-nav').toggleClass("open");
         });
 
-
+        $("#theme").on('click', function(event){
+            event.preventDefault();
+            // console.log("testing")
+            $("body").css("background-color", "black")
+            $("body").css("color", "white")
+            $("h1").css("color", "white")
+            $("h4").css("color", "white")
+            $("p").css("color", "white")
+            $("p").css("backgound-color", "black")
+            $(".text-content").css("background-color", "black")
+            $(".text-content").css("color", "white")
+             $(".content-section").css("background-color", "black")
+             $(".section-content").css("background-color", "black")
+             $(".tabs").css("background-color", "black")
+             $(".tabs").css("color", "white")
+             $(".tabgroup").css("background-color", "black")
+        })
+        $(".theme").on('click', function(event){
+            event.preventDefault();
+            // console.log("testing")
+            $("body").css("background-color", "black")
+            $("body").css("color", "white")
+            $("h1").css("color", "white")
+            $("h4").css("color", "white")
+            $("p").css("color", "white")
+            $("p").css("backgound-color", "black")
+            $(".text-content").css("background-color", "black")
+            $(".text-content").css("color", "white")
+             $(".content-section").css("background-color", "black")
+             $(".section-content").css("background-color", "black")
+             $(".tabs").css("background-color", "black")
+             $(".tabs").css("color", "white")
+             $(".tabgroup").css("background-color", "black")
+             
+        })
         $('.tabgroup > div').hide();
             $('.tabgroup > div:first-of-type').show();
             $('.tabs a').click(function(e){
