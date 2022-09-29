@@ -5,11 +5,11 @@
 
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="download(2)".png>
+        <img src="download(2).png">
     </a>
 </p>
 
-<h1 align="center"> <a href="https://hacktoberfest.digitalocean.com">HacktoberFest 2021</a></h1>
+<h1 align="center"> <a href="https://hacktoberfest.digitalocean.com">HacktoberFest 2022</a></h1>
 
 <p align="center">
  <img alt="Discord" src="https://img.shields.io/discord/813774169799917568?label=Join%20Discord"> 
