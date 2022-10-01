@@ -12,4 +12,5 @@
 
 ## LOOK
 
-![Screenshot 2022-05-31 213923](https://user-images.githubusercontent.com/91176055/171229784-bafcd02b-071b-4bbd-b291-24533c9c04b0.png)
+![pro](https://user-images.githubusercontent.com/91176055/193423853-74ffa5d7-9249-42e2-ba85-d4b19681a35b.png)
+
