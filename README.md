@@ -33,9 +33,9 @@
     
  <div align="center">
    <a href="https://discord.gg/XMuEPgCj6y ">
- <img align="left" alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
+ <img  alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> </a>
    <a href="https://chat.whatsapp.com/EGM3Sodus9W3Q9CavBKhiM">
- <img align="right" alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> 
+ <img  alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> </a>
 </div>
     
 
