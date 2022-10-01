@@ -153,8 +153,10 @@ Refer to the following articles on the basics of Git and Github and can also con
 <tr>
 
 <td align="center"><a href="https://github.com/Ayan-thecodeking"><img src="https://avatars.githubusercontent.com/u/78692566?v=4" width=150px height=150px /></a></br> <h4 style="color:white;">Ayan Gupta</h4>
+<a href="https://github.com/Ayan-thecodeking"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"  /></a>
+     <a href="https://github.com/Ayan-thecodeking"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  /></a>
+     <a href="https://github.com/Ayan-thecodeking"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"  /></a>
 
-     
 </tr>
 </table>
 <br>
