@@ -32,6 +32,13 @@
    <a href="https://discord.gg/XMuEPgCj6y ">
  <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
 </p>
+<p align="center">
+   <a href="https://discord.gg/XMuEPgCj6y ">
+ <img alt="<p align="center">
+   <a href="https://chat.whatsapp.com/EGM3Sodus9W3Q9CavBKhiM">
+ <img alt="WhatsApp" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
+</p>"> 
+</p>
 
 ---
 <div align="center">
