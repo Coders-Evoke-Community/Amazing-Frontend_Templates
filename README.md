@@ -35,16 +35,14 @@
  <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
 </div>
 <div>
-
-
    <a href="https://chat.whatsapp.com/EGM3Sodus9W3Q9CavBKhiM">
  <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> 
 </div>
-
-    </div>
+  </div>
 
 
 ---
+         
 <div align="center">
 
 ## 💯 [Give our repo](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates.git) a star 🌟 
