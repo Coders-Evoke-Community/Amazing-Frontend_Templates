@@ -1,0 +1,78 @@
+body{ background:url("https://wallpaperaccess.com/full/4488295.jpg");
+}
+header{
+  text-align:center;
+}
+
+h1{
+  font-family: Gabriola ;
+  font-size:36px;
+  color: #6b0f1a;
+}
+
+#description{
+  color:#861657;
+  font-size:18px;
+}
+
+section{
+  display:flex;
+  background:rgba(185, 19, 113, 0.30);
+  margin-left:4rem;
+  margin-right:4rem;
+  border-radius:5px solid;
+  z-index:-1;
+}
+
+#survey-form{
+  text-align:inherit;
+  line-height:2rem;
+  margin:2rem;
+}
+
+label {
+  color:#f8f9d2;
+  font-family:cursive;
+  font-size: 19px;
+}
+
+.details{
+ width:100%;
+ height:35px;
+ font-family:monospace;
+ font-size:16px; 
+}
+
+.question{
+  color:#f8f9d2;
+  font-size:19px;
+  font-family:cursive;
+}
+
+#dropdown{
+  width:100%;
+  height:2rem;
+  font-family:monospace;
+  font-size:16px;
+}
+
+textarea{
+  width:100%;
+  height:9em;
+}
+
+#submit{
+  width:6rem;
+  height:2rem;
+  background-color:#d387ab;
+  font-family:monospace;
+  font-size:17px;
+  color:white;
+  float:right;
+}
+
+#submit:hover{
+  background-color:#b91372;
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+            <header>
+              <h1 id="title">My Shop's Survey Form</h1>
+            <p id="description">Help us improving by taking this survey!😊</p>
+            </header>
+            <main class="container">
+                <section>
+                <form id="survey-form">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" class="details" id="name" placeholder="Enter your name" required>
+                    
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" class="details" id="email" placeholder="Enter your email" required>
+                    
+                    <label for="phone" id="number-label">Phone(optional)</label>
+                    <input type="number" class="details" id="number" min="1111111111" max="9999999999" placeholder="Enter your phone number"  required>
+                    <p class="question">How did you hear about us?</p>
+                    <select id="dropdown">
+                    <option value="none" disabled>Select the option</option>
+                    <option value="fb">Facebook</option>
+                <option value="insta">Instagram</option>
+                <option value="tv">Television</option>
+                <option value="frnd">Friend/Family</option>
+                    </select>
+                    <p class="question">How would you rate the value of our cakes? </p>
+                    <input type="radio" id="rate" name="rate" value="1">
+            <label for="rate">😣</label>
+            <input type="radio" id="rate" name="rate" value="2">
+            <label for="rate">😐</label>
+            <input type="radio" id="rate" name="rate" value="3">
+            <label for="rate">🙂</label>
+                    <input type="radio" id="rate" name="rate" value="4">
+            <label for="rate">😄</label>
+                    <input type="radio" id="rate" name="rate" value="5">
+            <label for="rate">😍</label>
+                    <p class="question">What did you bought today?</p>
+                    <input type="checkbox" id="item" name="item" value="cheesecake">
+            <label for="item"> Dessert</label>
+            <input type="checkbox" id="item" name="item" value="Velvet">
+            <label for="item"> Ice creams</label>
+            <input type="checkbox" id="item" name="item" value="blueberry">
+            <label for="item"> Chocolate</label>
+                    <input type="checkbox" id="item" name="item" value="pumpkin">
+            <label for="item">Junk foods</label>
+                    <input type="checkbox" id="item" name="item" value="lemon">
+            <label for="item">Mocktails</label>
+                    
+                    <p class="question">If there were any issues, comment here below:</p>
+                    <textarea></textarea>
+                    <br>
+                    <button id="submit"> Submit</button>
+                </form>
+                </section> 
+          </main>          
+    </body>
+</html>
