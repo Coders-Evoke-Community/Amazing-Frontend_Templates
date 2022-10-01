@@ -4,8 +4,8 @@
 <h2 align="center">We are excited to be a part of  </h2>
 
 <p align="center">
-    <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="download(2).png">
+    <a href="https://hacktoberfest.com/">
+        <img src="download (2).jpg" width=700px height=250px >
     </a>
 </p>
 
