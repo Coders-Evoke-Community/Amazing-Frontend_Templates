@@ -1,6 +1,14 @@
 # Responsive sidebar
 
-## HTML , CSS , JS
+## Tech stack 
+- HTML  
+- CSS 
+- JS
+
+## User guide
+
+- You can acess the sidebar by running the index.html file present in "Side-bar" folder.
+- You can integrate this in any website.
 
 ## LOOK
 
