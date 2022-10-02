@@ -4,8 +4,8 @@
 <h2 align="center">We are excited to be a part of  </h2>
 
 <p align="center">
-    <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="download(2).png">
+    <a href="https://hacktoberfest.com/">
+        <img src="download (2).jpg" width=700px height=250px >
     </a>
 </p>
 
@@ -28,12 +28,24 @@
 ---
 
 <h3 align="center"> <b>Join our Coders Evoke  Community and feel free to drop your questions on</h3>
-<p align="center">
+    
+
+    
+ <div align="center">
    <a href="https://discord.gg/XMuEPgCj6y ">
- <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> 
-</p>
+ <img  alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"> </a>
+   <a href="https://chat.whatsapp.com/EGM3Sodus9W3Q9CavBKhiM">
+ <img  alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> </a>
+</div>
+    
+
+         
+    
+   
+
 
 ---
+         
 <div align="center">
 
 ## 💯 [Give our repo](https://github.com/Ayan-thecodeking/Amazing-Frontend-Templates.git) a star 🌟 
@@ -141,8 +153,10 @@ Refer to the following articles on the basics of Git and Github and can also con
 <tr>
 
 <td align="center"><a href="https://github.com/Ayan-thecodeking"><img src="https://avatars.githubusercontent.com/u/78692566?v=4" width=150px height=150px /></a></br> <h4 style="color:white;">Ayan Gupta</h4>
+<a href="https://twitter.com/CodeXayan_?s=09"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"  /></a>
+     <a href="https://www.linkedin.com/in/ayan-gupta-924833201"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  /></a>
+     <a href="https://www.instagram.com/_the_flame_king_?r=nametag"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"  /></a>
 
-     
 </tr>
 </table>
 <br>
