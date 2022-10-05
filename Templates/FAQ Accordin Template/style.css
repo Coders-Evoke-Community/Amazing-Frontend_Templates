@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #2a2a2a;
+  display: flex;
+  min-height: 100vh;
+  background: rgb(255, 253, 253);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+h2 {
+    margin-left: 50px;
+}
+
+.accordins .accordin-items {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordins .accordin-items button[aria-expanded='true'] {
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.accordins button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #2a2a2a;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordins button:hover,
+.accordins button:focus {
+  cursor: pointer;
+  color: grey;
+}
+
+.accordins button:hover::after,
+.accordins button:focus::after {
+  cursor: pointer;
+  color: grey;
+  border: 1px solid grey;
+}
+
+.accordins button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordins button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordins button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordins button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordins button[aria-expanded='true'] {
+  color: #2a2a2a;
+}
+.accordins button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordins button[aria-expanded='true'] + .accordins-contents {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordins .accordins-contents {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordins .accordins-contents p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
