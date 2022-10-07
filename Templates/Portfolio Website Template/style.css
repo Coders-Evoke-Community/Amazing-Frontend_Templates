@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Silkscreen", cursive;
+  background: #f9b4f6;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: #a020f0;
+}
+.navbar-shadow {
+  box-shadow: 0 0 1em black;
+}
+.nav-links {
+  display: flex;
+}
+#title {
+  background: linear-gradient(
+    #e44f9c,
+    #d43790,
+    #e721a0,
+    #a020f0,
+    #f9b4f6,
+    #a020f0,
+    #e721a0,
+    #d43790,
+    #e44f9c
+  );
+  font-size: 2em;
+  border: 0.25em solid black;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.8em black;
+  box-shadow: 0em 0em 0.5em black;
+}
+.buttons {
+  height: 3.5em;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.2em;
+  padding: 0.5em 1em;
+  font-family: "Silkscreen", cursive;
+  border: 0.2em solid black;
+  border-radius: 0.25em;
+  background-color: #e44f9c;
+  transition-duration: 0.3s;
+  box-shadow: 0em 0em 0.5em black;
+}
+.buttons-nav {
+  text-shadow: 0 0 0.8em black;
+}
+.buttons:hover {
+  background-color: #5df15d;
+  box-shadow: 0em 0em 1em 0em #e721a0;
+  transform: rotate(2deg);
+  text-shadow: #e721a0;
+}
+.form-items:hover {
+  box-shadow: 0em 0em 1em 0em #e721a0;
+  transition: 0.3s;
+}
+#submit:hover {
+  background-color: #d43790;
+}
+.logos {
+  height: 5em;
+}
+.footer {
+  padding: 1em;
+}
+.footer-grid {
+  display: inline-grid;
+  margin: auto;
+}
+.copyright {
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-elem {
+  width: 33%;
+  border: 0.5em solid black;
+  border-radius: 0.25em;
+  box-shadow: 0em 0em 0.5em black;
+  align-items: center;
+  max-height: 35em;
+}
+.container {
+  padding: 1em;
+  background-color: #e44f9c;
+  text-align: center;
+  overflow: auto;
+  box-shadow: 0em 0em 0.5em black;
+}
+.card {
+  padding: 2px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  justify-content: space-between;
+}
+#myphoto {
+  border-radius: 0.25em;
+  border: 0.5em solid black;
+}
+
+.skills-logo {
+  border: 0.25em solid black;
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a020f0;
+  padding: 0.5em 1em;
+  justify-content: space-evenly;
+  box-shadow: 0em 0em 0.5em black;
+}
+.card-elem-style {
+  box-shadow: 0em 0em 2em 0.5em #e721a0;
+  transform: rotate(2deg);
+  transition: 0.3s;
+}
+.logo-animation {
+  position: relative;
+  animation: mymove 2s infinite;
+}
+.contact-form {
+  border: 0.25em solid black;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #a020f0;
+  padding: 1em 1em;
+  box-sizing: border-box;
+  box-shadow: 0em 0em 0.5em black;
+}
+.form-items {
+  resize: vertical;
+  outline: none;
+  width: 100%;
+  max-height: 10em;
+  padding: 0.5em;
+  margin: 0.15em;
+  word-wrap: break-word;
+  background-color: #e44f9c;
+  border-radius: 0.5em;
+  border: 0.25em solid black;
+  font-family: "Silkscreen", cursive;
+  box-shadow: 0em 0em 0.5em black;
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+  }
+
+  25% {
+    left: 20px;
+  }
+
+  75% {
+    left: -20px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar {
+    justify-content: center;
+  }
+  #title {
+    width: 85%;
+    margin: 0.2em;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar,
+  .container,
+  .contact-form,
+  .nav-links {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .responsive-card {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .nav-links,
+  .card {
+    justify-content: center;
+    word-wrap: break-word;
+  }
+}
+@media screen and (max-width: 300px) {
+  .responsive-card {
+    width: 50%;
+    justify-content: center;
+  }
+  #title {
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .buttons,
+  .footer-logos,
+  .navbar,
+  .copyright,
+  .footer-grid {
+    justify-content: center;
+    text-align: center;
+    margin: 0.3em;
+    width: 100%;
+  }
+}
