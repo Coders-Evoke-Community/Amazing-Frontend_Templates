@@ -17,14 +17,14 @@
 }
 
 nav{
-    padding: 30px 20%;
+    padding: 50px 90px 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20;
 }
 
 nav .logo{
@@ -43,27 +43,29 @@ nav .logo:hover{
 }
 
 nav ul li{
+    padding: 20px;
     list-style: none;
     display: inline-block;
     margin-left: 40px;
 }
 
 nav ul li:hover{
-    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
     color:transparent ;
 }
 
 nav ul li a {
+    padding: 10px;
     text-decoration: none;
     color:azure;
     font-size: 23px;
 }
 
 nav ul li a:hover{
+    padding: 10px;
     text-decoration: none;
-    -webkit-text-stroke: 0.5px rgb(238, 235, 235);
-    color:#fff;
-    font-size: 28px;
+    color:rgba(0, 0, 0, 0.463);
+    background-color: rgba(255, 255, 255, 0.159);
+    border-radius: 6px;
 }
 
 .content{
@@ -79,12 +81,6 @@ nav ul li a:hover{
     
 
 }
-.content h1:hover{
-    -webkit-text-stroke: 4px rgb(0, 0, 0);
-    color:transparent ;
-    
-}
-
 .content a{
     text-decoration: none;
     display: inline-block;
@@ -99,10 +95,9 @@ nav ul li a:hover{
 .content a:hover{
     text-decoration: none;
     display: inline-block;
-    color: rgb(4, 4, 4);
-    font-size: 40px;
-    border: 4px solid rgb(0, 0, 0);
-    padding: 2px 40px;
+    color:rgba(0, 0, 0, 0.463);
+    background-color: rgba(255, 255, 255, 0.159);
+    border: 2px solid rgba(255, 255, 255, 0.159);
     border-radius: 40px;
     
 }
