@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    /* padding: 0; */
+}
+
+.container{
+border: 6px solid black;
+display:flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+/* flex-flow: ;  short hand  */
+
+/* justify-content: space-around; */
+
+/* align-items: ;  stretch flex-start flex-end  */
+ }
+
+.item{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(90, 218, 32);
+    background-color: beige;
+    /* flex: auto;
+    text-align: center; */
+    flex-grow: 1;
+
+}
+
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+background-color: aquamarine;
+}
+.item-3{
+background-color: azure;
+}
+.item-4{
+background-color: blanchedalmond;
+/* flex-grow: 1; */
+}
+.item-5{
+background-color: cadetblue;
+
+}
+.item-6{
+background-color: coral;
+}
+.item-7{
+background-color: cornflowerblue;
+}

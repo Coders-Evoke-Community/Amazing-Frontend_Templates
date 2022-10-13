@@ -1,0 +1,30 @@
+nav{
+    font-size: 2rem;
+    background-color: rgb(230, 222, 222);
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+/* justify-content: space-around; */
+}
+
+nav ul li{
+    cursor: pointer;
+    padding: 0.5rem;
+    flex: auto;
+    text-align: center;
+}
+
+nav ul li:hover{
+    background-color: aqua;
+    color: white;
+}
+
+@media all and (max-width:460px){
+    nav ul {
+        flex-direction: column;
+    }
+}
