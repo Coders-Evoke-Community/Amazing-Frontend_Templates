@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #0f0d23 83%, #82016f 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 700px;
+    background-image: linear-gradient(to right, #fc466a, #1f44ff);
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Cormorant SC', serif;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+    border: 2.2px solid white;
+}
+
+.one {
+    list-style: none;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.box li {
+    font-size: 25px;
+    padding: 10px;
+}
+@media screen and (max-width:768px) {
+    .box{
+        width: 250px;;
+        padding: 20px;
+    }
+    .box li{
+        font-size: 20px;
+        padding: 8px;
+        color: black;
+    }
+    .box-img{
+        height:150px;
+        width: 120px;
+    }
+    .one{
+        padding:0;
+       width:100%;
+    }
+}
