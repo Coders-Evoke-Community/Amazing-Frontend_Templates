@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP </title>
+    <link rel="stylesheet" href="weatherhome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="search">
+        <label>
+            <input type="text" id="searchbar" placeholder="City Name" />
+            <span> <img src="icons8-search-32.png" alt="Search Icon" id="searchImage"> </span>
+        </label>
+        <h2 id="cityName"> City </h2>
+        <img id="clouds" alt="WeatherInformation" src="icons8-cloudy-day-1001.png"/>
+        <h1 id="main_degree"> 0&degC</h1>
+        <div class="degrees">
+            <span> <h2 id="kelvin"> 0&degK</h2></span>
+            <span>  <h2 id="fare"> 0&degF</h2></span>
+        </div>
+        <div id="line"> </div>
+        <div class="weeks">
+            <p> Tue </p>
+            <p> Wed </p>
+            <p> Thu </p>
+            <p> Fri </p>
+        </div>
+        <div class="days">
+
+            <img src="icons8-clouds-and-sun-100.png" alt="Sun" id="sunny" />
+            <img src="icons8-cloudy-day-100.png" alt="Sun" id="cloudy" />
+            <img src="icons8-sun-star-96.png" alt="Sun" id="rain" />
+            <img src="icons8-rainy-day-100.png" alt="Sun" id="snow" />
+        </div>
+        <div class="dates">
+            <p> 23/11 </p>
+            <p> 24/11 </p>
+            <p> 25/11</p>
+            <p> 26/11 </p>
+        </div>
+    </div>
+
+
+
+</div>
+<script src="homepage.js"></script>
+</body>
+</html>
