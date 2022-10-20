@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(242, 109, 135, 0.575),rgba(36, 71, 226, 0));
+    position: relative;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    padding: 50px 90px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 20;
+}
+
+nav .logo{
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    background: scroll;
+    background-color: beige;
+}
+
+nav ul li{
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li:hover{
+    color:transparent ;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color:azure;
+    font-size: 23px;
+}
+
+nav ul li a:hover{
+    padding: 10px;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.463);
+    background-color: rgba(255, 255, 255, 0.159);
+    border-radius: 6px;
+}
+
+.content{
+    text-align: center;
+
+}
+.content h1{
+    font-size: 70px;
+    color: azure;
+    font-weight: 600;
+    justify-content: center;
+    transition: 0.5s;
+    
+
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border: 2px solid rgb(252, 252, 252);
+    padding: 2px 40px;
+    border-radius: 50px;
+    
+}
+
+.content a:hover{
+    text-decoration: none;
+    display: inline-block;
+    color:rgba(0, 0, 0, 0.463);
+    background-color: rgba(255, 255, 255, 0.159);
+    border: 2px solid rgba(255, 255, 255, 0.159);
+    border-radius: 40px;
+    
+}
+
+.bgvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (max-width:488px){
+
+    nav{
+        padding: 1px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 93%;
+        position: absolute;
+    }
+    nav .logo{
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        background: scroll;
+        background-color: beige;
+    }
+    nav ul li{
+        padding-top: 30px;
+        padding-right: 0.5px;
+        list-style: none;
+        display: inline-block;
+        margin-left: 0.5px;
+    }
+    nav ul li a {
+        padding-right: 0.5px;
+        text-decoration: none;
+        color:azure;
+        font-size: 8px;
+    }
+    .content h1{
+        font-size: 30px;
+        color: azure;
+        font-weight: 600;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .content a{
+        font-size: 15px;
+        border: 2px solid rgb(252, 252, 252);
+        padding: 10px 30px;
+        border-radius: 30px;
+        
+    }
+    .bgvideo{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+    }
+}
+
+
+
+@media (min-aspect-ratio: 16/9){
+    .bgvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .bgvideo{
+        width: auto;
+        height: 100%;
+    }
+    
+}
+
