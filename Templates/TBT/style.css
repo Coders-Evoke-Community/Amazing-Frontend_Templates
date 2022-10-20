@@ -35,13 +35,6 @@ nav .logo{
     background-color: beige;
 }
 
-nav .logo:hover{
-    
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-}
-
 nav ul li{
     padding: 20px;
     list-style: none;
@@ -109,6 +102,60 @@ nav ul li a:hover{
     z-index: -1;
 }
 
+@media (max-width:488px){
+
+    nav{
+        padding: 1px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 93%;
+        position: absolute;
+    }
+    nav .logo{
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        background: scroll;
+        background-color: beige;
+    }
+    nav ul li{
+        padding-top: 30px;
+        padding-right: 0.5px;
+        list-style: none;
+        display: inline-block;
+        margin-left: 0.5px;
+    }
+    nav ul li a {
+        padding-right: 0.5px;
+        text-decoration: none;
+        color:azure;
+        font-size: 8px;
+    }
+    .content h1{
+        font-size: 30px;
+        color: azure;
+        font-weight: 600;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .content a{
+        font-size: 15px;
+        border: 2px solid rgb(252, 252, 252);
+        padding: 10px 30px;
+        border-radius: 30px;
+        
+    }
+    .bgvideo{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+    }
+}
+
+
+
 @media (min-aspect-ratio: 16/9){
     .bgvideo{
         width: 100%;
@@ -122,3 +169,4 @@ nav ul li a:hover{
     }
     
 }
+
