@@ -1,0 +1,20 @@
+#bttbutton {
+    position: fixed;
+    bottom: 30px;
+    right: 45px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ae642c;
+    color: white ;
+    cursor: pointer;
+    padding: 18px ;
+    border-radius: 20%;
+    font-size: 12px;
+   }
+  
+  #bttbutton:hover {
+    background-color:#ffac46;
+    color: #ffac46;
+    font-weight: 700 ;
+  }
